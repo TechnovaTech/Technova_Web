@@ -1,0 +1,15 @@
+.add-product
+{
+	float: right;
+}
+.display_image
+{
+	max-width: 200px;
+}
+.img-preview
+{
+	height: 300px;
+	max-width: 100%;
+	border:1px solid #eee;
+	box-shadow: 0 10px 12px rgba(0,0,0,0.2);
+}

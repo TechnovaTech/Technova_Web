@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KFFHE33255"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KFFHE33255');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Technova Technologies - Premium Tech Company </title>
+  <meta name="description" content="A holistic tech Company specializing in UI/UX, web design, web development, and ecommerce solutions.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#E11D48',
+            secondary: '#111827',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          animation: {
+            'spin-slow': 'spin 3s linear infinite',
+            'bounce-slow': 'bounce 2s infinite',
+            'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+          }
+        },
+      },
+    }
+  </script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <div id="preloader" class="fixed inset-0 flex items-center justify-center bg-black z-50">
+    <div class="loader relative">
+      <div class="loader-ring w-20 h-20"></div>
+      <div class="loader-ring w-16 h-16 absolute top-0 left-0"></div>
+      <div class="loader-ring w-12 h-12 absolute top-0 left-0"></div>
+      <div class="circle">
+        <img src="logo.svg" alt="Technova Technologies Logo" class="logo" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="hidden" id="main-content">
+    <h1 class="text-3xl text-center mt-10">Welcome to Technova Technologies</h1>
+    <p class="text-center mt-4">Your one-stop solution for technology needs.</p>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-dot hidden md:block"></div>
+  <div class="cursor-outline hidden md:block"></div>
+
+ <!-- Header/Navigation -->
+  <header class="fixed top-0 w-full z-50 transition-all duration-300" style="background-color: rgba(0,0,0,0.9); backdrop-filter: blur(10px);">
+  <div class="container mx-auto px-4 flex h-20 items-center justify-between">
+    <a href="#" class="flex items-center gap-2 group">
+      <img src="logo.svg" alt="Logo" class="h-8 sm:h-10 w-auto transition-transform duration-300 transform group-hover:scale-110" />
+    </a>
+    
+    <!-- Desktop Navigation (Hidden on Tablet) -->
+    <nav class="hidden md:flex items-center gap-12 lg:gap-8">
+      <a href="index.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Home</a>
+      <a href="service.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Services</a>
+      <a href="hireteam.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Hire Team</a>
+      <div class="relative group">
+        <button class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300 flex items-center gap-1">
+          Work
+          <svg class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div class="absolute top-full left-0 mt-2 w-48 bg-black bg-opacity-90 backdrop-blur-md rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
+          <div class="py-2">
+            <a href="portfolio.php" class="block px-4 py-2 text-white hover:text-red-600 hover:bg-gray-800 transition-colors duration-300">Portfolio</a>
+            <a href="product.php" class="block px-4 py-2 text-white hover:text-red-600 hover:bg-gray-800 transition-colors duration-300">Product</a>
+          </div>
+        </div>
+      </div>
+      <a href="about.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">About</a>
+      <a href="carrer.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Careers</a>
+    </nav>
+
+    <!-- Contact Button -->
+    <div class="hidden md:block">
+      <a href="contact.php" class="btn text-sm sm:text-base py-2 px-4 sm:py-3 sm:px-6">
+        Contact Us
+      </a>
+    </div>
+
+   <!-- Mobile Menu Button -->
+<button id="mobile-menu-button" class="md:hidden text-white focus:outline-none">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+  </svg>
+</button>
+
+<!-- Mobile Navigation -->
+<div id="mobile-menu" class="hidden md:hidden absolute top-20 left-0 w-full bg-black bg-opacity-90 backdrop-blur-md shadow-lg">
+  <nav class="flex flex-col items-center gap-4 py-6">
+    <a href="index.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Home</a>
+    <a href="service.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Services</a>
+    <a href="hireteam.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Hire Team</a>
+    <a href="portfolio.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Portfolio</a>
+    <a href="product.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Product</a>
+    <a href="about.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">About</a>
+    <a href="carrer.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Careers</a>
+    <a href="contact.php" class="btn text-sm sm:text-base py-2 px-4 sm:py-3 sm:px-6">Contact Us</a>
+  </nav>
+</div>
+
+</header>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="py-20 md:py-32 min-h-screen flex items-center relative overflow-hidden" style="background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(20,0,10,1));">
+    <!-- Animated Background -->
+    <div class="absolute inset-0 overflow-hidden">
+      <div id="stars-container" style="position: absolute; width: 100%; height: 100%;"></div>
+    </div>
+
+    <div class="container mx-auto px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-center relative z-10">
+      <div class="reveal">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-6">
+          A Bespoke<br />and Holistic<br />
+          <span class="gradient-text">Tech</span> Company
+        </h1>
+        <p class="text-base sm:text-lg text-gray-400 mb-8">
+          UI/UX, WEBDESIGN, WEB DEVELOPMENT, ECOMMERCE.
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="service.php" class="btn">
+            Our Services
+          </a>
+          <a href="portfolio.php" class="btn">
+            View Portfolio
+          </a>
+        </div>
+      </div>
+      <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+  type="module">
+      </script>
+
+<dotlottie-player
+  src="https://lottie.host/864db599-ae0e-4760-9342-70013d44f453/jfImXNzlZP.lottie"
+  background="transparent"
+  speed="1"
+  style="width: 480px; height: 480px"
+  loop
+  autoplay
+></dotlottie-player>
+    </div>
+
+
+<div id="whatsappDrawer" style="
+    position: fixed;
+    right: -220px; /* Hidden by default */
+    top: 80%;
+    transform: translateY(-50%);
+    width: 180px;
+    background-color: #e11d48;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: right 0.3s ease-in-out;
+    z-index: 1000;
+    border-radius: 10px 0px 0px 10px; /* Curvy edges */
+">
+    <a href="https://wa.me/919427300816" target="_blank" style="
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        display: block;
+        text-align: center;
+    ">Chat on WhatsApp</a>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        window.addEventListener('scroll', function () {
+            const drawer = document.getElementById('whatsappDrawer');
+            if (window.scrollY > 200) { // Show when scrolling past 100px
+                drawer.style.right = "0";
+            } else {
+                drawer.style.right = "-220px";
+            }
+        });
+    });
+</script>
+
+
+
+
+
+  
+  </section>
+  
+  <!-- Services -->
+  
+  <section id="services" class="py-16 sm:py-20 relative overflow-hidden">
+    <div class="absolute inset-0" style="background: radial-gradient(circle at center, rgba(225, 29, 72, 0.05), transparent 70%);"></div>
+    <div class="container mx-auto px-4 sm:px-6 relative z-10">
+      <div class="mb-12 sm:mb-16 reveal">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-white">
+          <span class="text-gray-500">OUR</span><br />
+          SERVICES
+        </h2>
+        <p class="text-gray-400 max-w-2xl">We offer a comprehensive range of digital services to help your business thrive in the digital landscape.</p>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+        <div class="service-card p-6 bg-gray-900/30 rounded-lg reveal" style="transition-delay: 100ms;">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 sm:h-8 sm:w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01  d=" M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-6">DESIGN</h3>
+          <ul class="space-y-4">
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Brand Design</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>UI/UX</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Service Design</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Web Design</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="service-card p-6 bg-gray-900/30 rounded-lg reveal" style="transition-delay: 200ms;">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 sm:h-8 sm:w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-6">WEB</h3>
+          <ul class="space-y-4">
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>.NET</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Laravel</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Nodejs</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Php</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Python</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="service-card p-6 bg-gray-900/30 rounded-lg reveal" style="transition-delay: 300ms;">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 sm:h-8 sm:w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-6">E-COMMERCE</h3>
+          <ul class="space-y-4">
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>BigCommerce</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Magento</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>PrestaShop</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Shopify</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>WooCommerce</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="service-card p-6 bg-gray-900/30 rounded-lg reveal" style="transition-delay: 400ms;">
+          <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 sm:h-8 sm:w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold mb-6">MOBILE</h3>
+          <ul class="space-y-4">
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Android</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Flutter</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>IOS</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>Kotlin</span>
+            </li>
+            <li class="flex items-center gap-2 hover:translate-x-1 transition-transform duration-300">
+              <span class="text-primary">•</span>
+              <span>React Native</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Nutty Process Section -->
+  <section id="process" class="py-16 sm:py-20 bg-black">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="mb-12 sm:mb-16 reveal">
+        <h2 class="text-2xl sm:text-3xl font-bold mb-4">Technova PROCESS</h2>
+        <p class="text-gray-400 max-w-2xl">Our proven methodology ensures consistent results and exceptional quality for every project.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-12">
+        <div class="space-y-12">
+          <div class="flex gap-4 sm:gap-6 reveal" style="transition-delay: 100ms;">
+            <div class="relative">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center process-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 sm:w-8 sm:h-8 text-primary">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+                </svg>
+              </div>
+              <div class="absolute top-16 bottom-0 left-1/2 w-px bg-primary/20 process-line"></div>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Discover</h3>
+              <p class="text-gray-400">
+                All great things begin with a conversation and a cup of coffee. Is there something we can help you with? We're all ears.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 sm:gap-6 reveal" style="transition-delay: 200ms;">
+            <div class="relative">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center process-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 sm:w-8 sm:h-8 text-primary">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 10-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+                </svg>
+              </div>
+              <div class="absolute top-16 bottom-0 left-1/2 w-px bg-primary/20 process-line"></div>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Define</h3>
+              <p class="text-gray-400">
+                Post the initial meeting, the team gathers for a communal brainstorming session. Our creative minds doing what they do best: Ideating.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="space-y-12">
+          <div class="flex gap-4 sm:gap-6 reveal" style="transition-delay: 300ms;">
+            <div class="relative">
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center process-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 sm:w-8 sm:h-8 text-primary">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 01-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0115 18.257V17.25m6-12V15a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 15V5.25m18 0A2.25 2.25 0 0018.75 3H5.25A2.25 2.25 0 003 5.25m18 0V12a2.25 2.25 0 01-2.25 2.25H5.25A2.25 2.25 0 013 12V5.25" />
+                </svg>
+              </div>
+              <div class="absolute top-16 bottom-0 left-1/2 w-px bg-primary/20 process-line"></div>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Design & Develop</h3>
+              <p class="text-gray-400">
+                With the design approved, we begin developing the final product with painstaking precision. If you don't look good, we don't look good.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex gap-4 sm:gap-6 reveal" style="transition-delay: 400ms;">
+            <div>
+              <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-full bg-primary/20 flex items-center justify-center process-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 sm:w-8 sm:h-8 text-primary">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 01-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 006.16-12.12A14.98 14.98 0 009.631 8.41m5.96 5.96a14.926 14.926 0 01-5.841 2.58m-.119-8.54a6 6 0 00-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 00-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 01-2.448-2.448 14.9 14.9 0 01.06-.312m-2.24 2.39a4.493 4.493 0 00-1.757 4.306 4.493 4.493 0 004.306-1.758M16.5 9a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0z" />
+                </svg>
+              </div>
+            </div>
+            <div>
+              <h3 class="text-xl font-bold mb-2">Deliver</h3>
+              <p class="text-gray-400">
+                After the final product has been thoroughly vetted by our experts, we prepare to go live. All the grinding and toiling, ultimately paying dividend.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  
+
+
+  <!-- Footer -->
+  <footer class="bg-black text-grey py-12 sm:py-16 border-t border-gray-800">
+    <div class="container mx-auto px-4 sm:px-6">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-12">
+            <div class="mb-6"> <!-- Added mb-6 for consistent spacing -->
+                <h3 class="text-lg font-bold mb-4 text-grey-600">Contact Us</h3>
+                <p class="text-gray-200 mb-2"><strong>Email:</strong> <a href="mailto:info@technovatechnologies.com" class="text-gray-200 hover:text-red-600">info@technovatechnologies.com</a></p>
+                <p class="text-gray-200 mb-2"><strong>Phone:</strong> <a href="tel:+91 94273 00816" class="text-gray-200 hover:text-red-600">+91 94273 00816</a></p>
+                <p class="text-gray-200 mb-2"><strong>Address:</strong> 608 - Time Square Commercial Complex</p>
+                <p class="text-gray-200">Near Ayodhya Chowk, 150 Feet Ring Rd, Rajkot, Gujarat 360007</p>
+            </div>
+            <div class="mb-6"> <!-- Added mb-8 for consistent spacing -->
+                <h3 class="text-lg font-bold mb-4 text-gery-600">Services</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">Web Development</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">App Development</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">Web Design</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">ERP Development</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">SEO Development</a></li>
+                </ul>
+            </div>
+            <div class="mb-6"> <!-- Added mb-6 for consistent spacing -->
+                <h3 class="text-lg font-bold mb-4 text-grey-600">Our Technologies</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">ASP.NET</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">MERN Stack</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">PHP,My SQL</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300">Cloud Computing</a></li>
+                    <li><a href="#" class="text-gray-200 hover:text-red-600 transition-colors duration-300"></a>Angular</li>
+                </ul>
+            </div>
+            
+        </div>
+            
+        <div class="flex justify-between items-center pt-8 border-t border-gray-800">
+         <!-- Copyright -->
+            <p class="mt-4 text-sm">&copy; 2025 Technova Technologies. All rights reserved.</p>
+        </div>
+            
+        </div>
+    </div>
+          
+</footer>
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center opacity-0 invisible transition-all duration-300 hover:bg-red-700 z-50">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+    </svg>
+  </button>
+
+
+  <script type="text/javascript" src="script.js"></script>
+
+
+  <!-- Js For Whatsapp Drawer -->
+  
+</body>
+
+</html>

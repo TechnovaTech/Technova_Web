@@ -1,0 +1,44 @@
+Array
+(
+    [part_id] => Array
+        (
+            [0] => 40
+        )
+
+    [po_id] => 116
+    [date] => 2025-07-11
+    [shift] => morning
+    [operator_id] => 6
+    [heat_code] => Array
+        (
+            [0] => 1-11G25
+        )
+
+    [mould_name] => Array
+        (
+            [0] => Array
+                (
+                    [0] => HARPA
+                )
+
+        )
+
+    [cooling_time_minutes] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 45
+                )
+
+        )
+
+    [pieces_processed] => Array
+        (
+            [0] => Array
+                (
+                    [0] => 3
+                )
+
+        )
+
+)
