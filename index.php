@@ -439,6 +439,353 @@
   
 
 
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-16 sm:py-20 bg-black relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0" style="background: radial-gradient(circle at center, rgba(225, 29, 72, 0.05), transparent 70%);"></div>
+    
+    <div class="container mx-auto px-4 sm:px-6 relative z-10">
+      <!-- Section Header -->
+      <div class="text-center mb-12 sm:mb-16 reveal">
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
+          <span class="text-gray-500">CLIENT</span><br />
+          <span class="gradient-text">TESTIMONIALS</span>
+        </h2>
+        <p class="text-gray-400 text-lg max-w-2xl mx-auto">Precious words from our clients worldwide who trust us with their digital transformation</p>
+      </div>
+
+      <!-- Main Card Container -->
+      <div class="max-w-6xl mx-auto bg-gradient-to-r from-gray-900/80 to-black/80 backdrop-blur-sm rounded-3xl border border-red-500/20 overflow-hidden relative shadow-2xl">
+        <!-- Decorative Elements -->
+        <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary via-red-400 to-primary"></div>
+        
+        <!-- Navigation Arrows -->
+        <button id="testimonial-up" class="absolute top-6 right-20 w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 z-10 border border-primary/30">
+          <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+          </svg>
+        </button>
+        <button id="testimonial-down" class="absolute bottom-6 right-20 w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 z-10 border border-primary/30">
+          <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[450px]">
+          <!-- Left Side - Fixed Accredited By -->
+          <div class="bg-gradient-to-br from-red-900/30 to-black/50 p-8 lg:p-12 text-center border-r border-red-500/20 relative">
+            <!-- Decorative Corner -->
+            <div class="absolute top-0 left-0 w-20 h-20 border-l-2 border-t-2 border-primary/30 rounded-tl-3xl"></div>
+            
+            <h3 class="text-2xl lg:text-3xl font-bold text-white mb-6 relative">
+              <span class="gradient-text">Accredited By</span>
+            </h3>
+            <p class="text-lg text-gray-300 mb-8">World's leading rating &<br>review firms</p>
+            
+            <!-- Clutch Rating -->
+            <div class="mb-8 p-4 bg-black/30 rounded-xl border border-red-500/20">
+              <div class="text-sm text-gray-400 mb-2">REVIEWED ON</div>
+              <div class="text-2xl font-bold text-white mb-2">Clutch</div>
+              <div class="flex justify-center items-center gap-1 mb-2">
+                <span class="text-primary text-xl">★★★★★</span>
+              </div>
+              <div class="text-sm text-gray-400">10 REVIEWS</div>
+            </div>
+
+            <!-- Goodfirms Rating -->
+            <div class="bg-gradient-to-r from-black/50 to-red-900/20 rounded-xl p-6 border border-red-500/30">
+              <div class="text-xl font-bold text-primary mb-2">EXCELLENT</div>
+              <div class="flex justify-center items-center gap-1 mb-2">
+                <span class="text-primary text-xl">★★★★★</span>
+              </div>
+              <div class="flex items-center justify-center gap-2">
+                <span class="text-sm text-gray-400">Based on 8 Reviews</span>
+                <span class="text-primary font-bold">Goodfirms</span>
+              </div>
+            </div>
+            
+            <!-- Decorative Corner -->
+            <div class="absolute bottom-0 right-0 w-20 h-20 border-r-2 border-b-2 border-primary/30 rounded-br-3xl"></div>
+          </div>
+
+          <!-- Right Side - Scrolling Testimonials -->
+          <div class="relative overflow-hidden pr-24">
+            <div id="testimonial-slider" class="transition-transform duration-700 ease-in-out">
+              <!-- Testimonial 1 -->
+              <div class="testimonial-card p-8 min-h-[450px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-primary/30">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-primary/30 mb-2">“</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Hi, this is Erika from Sweden. I am the managing director of Zorbeto. We are just launching a web shop that Technova has built in Laravel PHP and I like working with Technova.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        They are quick to respond and nothing is impossible. We will definitely continue to work with them on a regular basis, that is for sure.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <button class="flex items-center gap-3 text-primary hover:text-white font-medium group transition-all duration-300">
+                    <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary transition-all duration-300">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <span class="group-hover:translate-x-1 transition-transform duration-300">Watch Video →</span>
+                  </button>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-red-500/20">
+                  <div class="text-center">
+                    <div class="font-bold text-white text-lg">Erica Lindgren</div>
+                    <div class="text-primary font-medium">Zorbeto AB</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="testimonial-card p-8 min-h-[450px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-primary/30">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-primary/30 mb-2">“</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Technova Technologies delivered an exceptional e-commerce platform for our business. Their attention to detail and commitment to quality is outstanding.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        We highly recommend their services to anyone looking for reliable web development solutions. The communication was excellent throughout the project.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <button class="flex items-center gap-3 text-primary hover:text-white font-medium group transition-all duration-300">
+                    <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary transition-all duration-300">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <span class="group-hover:translate-x-1 transition-transform duration-300">Watch Video →</span>
+                  </button>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-red-500/20">
+                  <div class="text-center">
+                    <div class="font-bold text-white text-lg">John Smith</div>
+                    <div class="text-primary font-medium">Tech Solutions Inc</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="testimonial-card p-8 min-h-[450px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-primary/30">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-primary/30 mb-2">“</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Working with Technova has been a game-changer for our digital presence. Their innovative approach and technical expertise helped us achieve our goals.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        The team's dedication and professionalism made the entire process smooth and enjoyable. We look forward to future collaborations.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <button class="flex items-center gap-3 text-primary hover:text-white font-medium group transition-all duration-300">
+                    <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary transition-all duration-300">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <span class="group-hover:translate-x-1 transition-transform duration-300">Watch Video →</span>
+                  </button>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-red-500/20">
+                  <div class="text-center">
+                    <div class="font-bold text-white text-lg">Sarah Johnson</div>
+                    <div class="text-primary font-medium">Digital Marketing Pro</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 4 -->
+              <div class="testimonial-card p-8 min-h-[450px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-primary/30">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-primary/30 mb-2">“</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Technova's mobile app development exceeded our expectations. The app is fast, user-friendly, and has significantly improved our customer engagement.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        Their team understood our vision perfectly and delivered a product that truly represents our brand. Highly professional and reliable.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <button class="flex items-center gap-3 text-primary hover:text-white font-medium group transition-all duration-300">
+                    <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary transition-all duration-300">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <span class="group-hover:translate-x-1 transition-transform duration-300">Watch Video →</span>
+                  </button>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-red-500/20">
+                  <div class="text-center">
+                    <div class="font-bold text-white text-lg">Michael Chen</div>
+                    <div class="text-primary font-medium">RetailMax Solutions</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 5 -->
+              <div class="testimonial-card p-8 min-h-[450px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-primary/30">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-primary/30 mb-2">“</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        The UI/UX design services from Technova transformed our website completely. Our conversion rates increased by 40% after the redesign.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        They have an excellent eye for design and understand user behavior perfectly. The project was completed on time and within budget.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <button class="flex items-center gap-3 text-primary hover:text-white font-medium group transition-all duration-300">
+                    <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary transition-all duration-300">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <span class="group-hover:translate-x-1 transition-transform duration-300">Watch Video →</span>
+                  </button>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-red-500/20">
+                  <div class="text-center">
+                    <div class="font-bold text-white text-lg">Amanda Rodriguez</div>
+                    <div class="text-primary font-medium">Creative Studios Ltd</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 6 -->
+              <div class="testimonial-card p-8 min-h-[450px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-primary/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-primary/30">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-primary/30 mb-2">“</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Technova developed a custom ERP system for our manufacturing business. The system streamlined our operations and improved efficiency by 60%.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        Their technical expertise and understanding of business processes is remarkable. They provided excellent post-launch support as well.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <button class="flex items-center gap-3 text-primary hover:text-white font-medium group transition-all duration-300">
+                    <div class="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center group-hover:bg-primary transition-all duration-300">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                    <span class="group-hover:translate-x-1 transition-transform duration-300">Watch Video →</span>
+                  </button>
+                </div>
+                
+                <div class="mt-8 pt-6 border-t border-red-500/20">
+                  <div class="text-center">
+                    <div class="font-bold text-white text-lg">David Thompson</div>
+                    <div class="text-primary font-medium">Industrial Solutions Corp</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    let currentTestimonial = 0;
+    const testimonials = document.querySelectorAll('.testimonial-card');
+    const slider = document.getElementById('testimonial-slider');
+    const upBtn = document.getElementById('testimonial-up');
+    const downBtn = document.getElementById('testimonial-down');
+
+    function updateSlider() {
+      const offset = currentTestimonial * -100;
+      slider.style.transform = `translateY(${offset}%)`;
+    }
+
+    upBtn.addEventListener('click', () => {
+      currentTestimonial = currentTestimonial > 0 ? currentTestimonial - 1 : testimonials.length - 1;
+      updateSlider();
+    });
+
+    downBtn.addEventListener('click', () => {
+      currentTestimonial = currentTestimonial < testimonials.length - 1 ? currentTestimonial + 1 : 0;
+      updateSlider();
+    });
+
+    // Auto-scroll testimonials
+    setInterval(() => {
+      currentTestimonial = currentTestimonial < testimonials.length - 1 ? currentTestimonial + 1 : 0;
+      updateSlider();
+    }, 5000);
+  </script>
+
   <!-- Footer -->
   <footer class="bg-black text-grey py-12 sm:py-16 border-t border-gray-800">
     <div class="container mx-auto px-4 sm:px-6">
@@ -489,8 +836,7 @@
     </svg>
   </button>
 
-<h1>ishita</h1>
-<h1>krima</h1>
+
   <script type="text/javascript" src="script.js"></script>
 
 
