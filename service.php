@@ -187,7 +187,7 @@
   <section class="py-16 sm:py-20 bg-white">
     <div class="container mx-auto px-4 sm:px-6">
       <div class="mb-12">
-        <h2 class="text-4xl sm:text-5xl font-bold mb-6 text-black">Our Services</h2>
+        <h2 class="text-4xl sm:text-5xl font-bold mb-6 text-black">Services</h2>
         <p class="text-lg text-gray-600 max-w-4xl leading-relaxed">
           As we've evolved, we've coded a culture that thrives and it's purely replicable in all our offered services. It's just like a simple plain vanilla; right from the start of ideation to the end of delivery, our champions are on their toes to deliver you the best.
         </p>
