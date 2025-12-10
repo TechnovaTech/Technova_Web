@@ -162,24 +162,7 @@
           Empowering businesses with <span class="text-primary font-semibold">cutting-edge technology</span> solutions and innovative digital experiences that drive growth
         </p>
         
-        <!-- Stats Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12 max-w-4xl mx-auto">
-          <div class="group bg-gradient-to-br from-gray-900/80 to-gray-800/50 backdrop-blur-sm px-8 py-6 rounded-2xl border border-gray-700/50 hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-primary/20">
-            <div class="text-3xl font-bold text-primary mb-2 group-hover:animate-bounce">50+</div>
-            <div class="text-gray-300 font-medium">Projects Delivered</div>
-            <div class="text-sm text-gray-400 mt-1">Successfully Completed</div>
-          </div>
-          <div class="group bg-gradient-to-br from-gray-900/80 to-gray-800/50 backdrop-blur-sm px-8 py-6 rounded-2xl border border-gray-700/50 hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-primary/20">
-            <div class="text-3xl font-bold text-primary mb-2 group-hover:animate-bounce">15+</div>
-            <div class="text-gray-300 font-medium">Technologies</div>
-            <div class="text-sm text-gray-400 mt-1">Modern Tech Stack</div>
-          </div>
-          <div class="group bg-gradient-to-br from-gray-900/80 to-gray-800/50 backdrop-blur-sm px-8 py-6 rounded-2xl border border-gray-700/50 hover:border-primary/50 transition-all duration-300 hover:transform hover:scale-105 hover:shadow-2xl hover:shadow-primary/20">
-            <div class="text-3xl font-bold text-primary mb-2 group-hover:animate-bounce">24/7</div>
-            <div class="text-gray-300 font-medium">Support</div>
-            <div class="text-sm text-gray-400 mt-1">Always Available</div>
-          </div>
-        </div>
+
         
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -196,6 +179,88 @@
             </svg>
           </a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Overview Section -->
+  <section class="py-16 sm:py-20 bg-white">
+    <div class="container mx-auto px-4 sm:px-6">
+      <div class="mb-12">
+        <h2 class="text-4xl sm:text-5xl font-bold mb-6 text-black">Our Services</h2>
+        <p class="text-lg text-gray-600 max-w-4xl leading-relaxed">
+          As we've evolved, we've coded a culture that thrives and it's purely replicable in all our offered services. It's just like a simple plain vanilla; right from the start of ideation to the end of delivery, our champions are on their toes to deliver you the best.
+        </p>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-0 border border-gray-300 mb-12">
+        <!-- Websites -->
+        <div class="p-8 border-r border-b border-gray-300">
+          <h3 class="text-xl font-bold mb-4 text-black">Websites</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>• 500+ Websites Delivered</li>
+            <li>• Attractive and Responsive Design</li>
+            <li>• 7+ Years of Experienced Developers</li>
+          </ul>
+        </div>
+
+        <!-- Mobile -->
+        <div class="p-8 border-r border-b border-gray-300">
+          <h3 class="text-xl font-bold mb-4 text-black">Mobile</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>• 70+ Apps Developed</li>
+            <li>• 7+ Years of Experienced Developers</li>
+            <li>• 2 In-house Products (100k+ Downloads)</li>
+          </ul>
+        </div>
+
+        <!-- SaaS -->
+        <div class="p-8 border-b border-gray-300">
+          <h3 class="text-xl font-bold mb-4 text-black">SaaS</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>• 5 VC Funded Products Developed</li>
+            <li>• Created 20+ SaaS Products</li>
+            <li>• 4 In-house SaaS Products</li>
+          </ul>
+        </div>
+
+        <!-- E-commerce -->
+        <div class="p-8 border-r border-gray-300">
+          <h3 class="text-xl font-bold mb-4 text-black">E-commerce</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>• 100+ Stores Developed</li>
+            <li>• Worked with $5 Mn+ Stores</li>
+            <li>• 1 In-house Product</li>
+          </ul>
+        </div>
+
+        <!-- UI/UX -->
+        <div class="p-8 border-r border-gray-300">
+          <h3 class="text-xl font-bold mb-4 text-black">UI/UX</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>• Intuitive & Purpose-centric Designs</li>
+            <li>• 80+ Thoughts Transformed into Reality</li>
+            <li>• 15+ Ideators, Creators, and Designers</li>
+          </ul>
+        </div>
+
+        <!-- Branding -->
+        <div class="p-8">
+          <h3 class="text-xl font-bold mb-4 text-black">Branding</h3>
+          <ul class="space-y-2 text-gray-600">
+            <li>• Built Brands That Dance with Design</li>
+            <li>• Crafted 100+ Identities</li>
+            <li>• 5+ Brand Experts</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- See Projects Button -->
+      <div class="text-left">
+        <a href="portfolio.php" class="inline-block bg-black text-white px-8 py-3 font-bold text-sm tracking-wider hover:bg-gray-800 transition-colors duration-300">
+          SEE PROJECTS
+        </a>
       </div>
     </div>
   </section>
