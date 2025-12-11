@@ -461,37 +461,17 @@
         
 
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[450px]">
-          <!-- Left Side - Fixed Accredited By -->
-          <div class="bg-gradient-to-br from-red-900/30 to-black/50 p-8 lg:p-12 text-center border-r border-red-500/20 relative">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[350px]">
+          <!-- Left Side - Accredited By -->
+          <div class="bg-gradient-to-br from-red-900/30 to-black/50 p-8 lg:p-12 flex items-center justify-center border-r border-red-500/20 relative">
             <!-- Decorative Corner -->
             <div class="absolute top-0 left-0 w-20 h-20 border-l-2 border-t-2 border-primary/30 rounded-tl-3xl"></div>
             
-            <h3 class="text-2xl lg:text-3xl font-bold text-white mb-6 relative">
-              <span class="gradient-text">Accredited By</span>
-            </h3>
-            <p class="text-lg text-gray-300 mb-8">World's leading rating &<br>review firms</p>
-            
-            <!-- Clutch Rating -->
-            <div class="mb-8 p-4 bg-black/30 rounded-xl border border-red-500/20">
-              <div class="text-sm text-gray-400 mb-2">REVIEWED ON</div>
-              <div class="text-2xl font-bold text-white mb-2">Clutch</div>
-              <div class="flex justify-center items-center gap-1 mb-2">
-                <span class="text-primary text-xl">★★★★★</span>
-              </div>
-              <div class="text-sm text-gray-400">10 REVIEWS</div>
-            </div>
-
-            <!-- Goodfirms Rating -->
-            <div class="bg-gradient-to-r from-black/50 to-red-900/20 rounded-xl p-6 border border-red-500/30">
-              <div class="text-xl font-bold text-primary mb-2">EXCELLENT</div>
-              <div class="flex justify-center items-center gap-1 mb-2">
-                <span class="text-primary text-xl">★★★★★</span>
-              </div>
-              <div class="flex items-center justify-center gap-2">
-                <span class="text-sm text-gray-400">Based on 8 Reviews</span>
-                <span class="text-primary font-bold">Goodfirms</span>
-              </div>
+            <div class="text-center">
+              <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">
+                <span class="gradient-text">Accredited By</span>
+              </h3>
+              <p class="text-lg text-gray-300">World's leading rating &<br>review firms</p>
             </div>
             
             <!-- Decorative Corner -->
@@ -499,26 +479,26 @@
           </div>
 
           <!-- Right Side - Scrolling Testimonials -->
-          <div class="relative h-[450px]" id="testimonial-container">
+          <div class="relative h-[350px]" id="testimonial-container">
             <!-- Navigation Arrows -->
-            <button id="scroll-up" class="absolute top-6 right-6 w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 z-20 border border-primary/30">
-              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <button id="scroll-up" class="absolute top-6 right-6 w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-red-600 hover:scale-110 transition-all duration-300 z-20 border border-primary/30 group">
+              <svg class="w-5 h-5 text-primary group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
               </svg>
             </button>
-            <button id="scroll-down" class="absolute bottom-6 right-6 w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-primary hover:scale-110 transition-all duration-300 z-20 border border-primary/30">
-              <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <button id="scroll-down" class="absolute bottom-6 right-6 w-10 h-10 bg-primary/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-red-600 hover:scale-110 transition-all duration-300 z-20 border border-primary/30 group">
+              <svg class="w-5 h-5 text-primary group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
               </svg>
             </button>
-            <div id="testimonial-scroll" class="overflow-y-auto h-full pr-4 pb-8" style="scroll-snap-type: y mandatory; scrollbar-width: none; -ms-overflow-style: none;">
+            <div id="testimonial-scroll" class="overflow-hidden h-full" style="scrollbar-width: none; -ms-overflow-style: none;">
               <style>
                 #testimonial-scroll::-webkit-scrollbar {
                   display: none;
                 }
               </style>
               <!-- Testimonial 1 -->
-              <div class="testimonial-card p-8 pb-12 min-h-[450px] flex flex-col justify-between" style="scroll-snap-align: start;">
+              <div class="testimonial-card p-6 pb-8 min-h-[350px] flex flex-col justify-between" style="scroll-snap-align: start;">
                 <div>
                   <div class="flex items-start gap-6 mb-6">
                     <div class="flex-shrink-0">
@@ -549,16 +529,16 @@
                   </button>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-red-500/20">
+                <div class="mt-6 pt-4 border-t border-red-500/20">
                   <div class="text-center">
-                    <div class="font-bold text-white text-lg">Erica Lindgren</div>
-                    <div class="text-primary font-medium">Zorbeto AB</div>
+                    <div class="font-bold text-white text-xl">Erica Lindgren</div>
+                    <div class="text-primary font-semibold text-lg">Zorbeto AB</div>
                   </div>
                 </div>
               </div>
 
               <!-- Testimonial 2 -->
-              <div class="testimonial-card p-8 pb-12 min-h-[450px] flex flex-col justify-between" style="scroll-snap-align: start;">
+              <div class="testimonial-card p-6 pb-8 min-h-[350px] flex flex-col justify-between" style="scroll-snap-align: start;">
                 <div>
                   <div class="flex items-start gap-6 mb-6">
                     <div class="flex-shrink-0">
@@ -589,16 +569,16 @@
                   </button>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-red-500/20">
+                <div class="mt-6 pt-4 border-t border-red-500/20">
                   <div class="text-center">
-                    <div class="font-bold text-white text-lg">John Smith</div>
-                    <div class="text-primary font-medium">Tech Solutions Inc</div>
+                    <div class="font-bold text-white text-xl">John Smith</div>
+                    <div class="text-primary font-semibold text-lg">Tech Solutions Inc</div>
                   </div>
                 </div>
               </div>
 
               <!-- Testimonial 3 -->
-              <div class="testimonial-card p-8 pb-12 min-h-[450px] flex flex-col justify-between" style="scroll-snap-align: start;">
+              <div class="testimonial-card p-6 pb-8 min-h-[350px] flex flex-col justify-between" style="scroll-snap-align: start;">
                 <div>
                   <div class="flex items-start gap-6 mb-6">
                     <div class="flex-shrink-0">
@@ -629,16 +609,16 @@
                   </button>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-red-500/20">
+                <div class="mt-6 pt-4 border-t border-red-500/20">
                   <div class="text-center">
-                    <div class="font-bold text-white text-lg">Sarah Johnson</div>
-                    <div class="text-primary font-medium">Digital Marketing Pro</div>
+                    <div class="font-bold text-white text-xl">Sarah Johnson</div>
+                    <div class="text-primary font-semibold text-lg">Digital Marketing Pro</div>
                   </div>
                 </div>
               </div>
 
               <!-- Testimonial 4 -->
-              <div class="testimonial-card p-8 pb-12 min-h-[450px] flex flex-col justify-between" style="scroll-snap-align: start;">
+              <div class="testimonial-card p-6 pb-8 min-h-[350px] flex flex-col justify-between" style="scroll-snap-align: start;">
                 <div>
                   <div class="flex items-start gap-6 mb-6">
                     <div class="flex-shrink-0">
@@ -669,16 +649,16 @@
                   </button>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-red-500/20">
+                <div class="mt-6 pt-4 border-t border-red-500/20">
                   <div class="text-center">
-                    <div class="font-bold text-white text-lg">Michael Chen</div>
-                    <div class="text-primary font-medium">RetailMax Solutions</div>
+                    <div class="font-bold text-white text-xl">Michael Chen</div>
+                    <div class="text-primary font-semibold text-lg">RetailMax Solutions</div>
                   </div>
                 </div>
               </div>
 
               <!-- Testimonial 5 -->
-              <div class="testimonial-card p-8 pb-12 min-h-[450px] flex flex-col justify-between" style="scroll-snap-align: start;">
+              <div class="testimonial-card p-6 pb-8 min-h-[350px] flex flex-col justify-between" style="scroll-snap-align: start;">
                 <div>
                   <div class="flex items-start gap-6 mb-6">
                     <div class="flex-shrink-0">
@@ -709,16 +689,16 @@
                   </button>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-red-500/20">
+                <div class="mt-6 pt-4 border-t border-red-500/20">
                   <div class="text-center">
-                    <div class="font-bold text-white text-lg">Amanda Rodriguez</div>
-                    <div class="text-primary font-medium">Creative Studios Ltd</div>
+                    <div class="font-bold text-white text-xl">Amanda Rodriguez</div>
+                    <div class="text-primary font-semibold text-lg">Creative Studios Ltd</div>
                   </div>
                 </div>
               </div>
 
               <!-- Testimonial 6 -->
-              <div class="testimonial-card p-8 pb-12 min-h-[450px] flex flex-col justify-between" style="scroll-snap-align: start;">
+              <div class="testimonial-card p-6 pb-8 min-h-[350px] flex flex-col justify-between" style="scroll-snap-align: start;">
                 <div>
                   <div class="flex items-start gap-6 mb-6">
                     <div class="flex-shrink-0">
@@ -749,10 +729,10 @@
                   </button>
                 </div>
                 
-                <div class="mt-8 pt-6 border-t border-red-500/20">
+                <div class="mt-6 pt-4 border-t border-red-500/20">
                   <div class="text-center">
-                    <div class="font-bold text-white text-lg">David Thompson</div>
-                    <div class="text-primary font-medium">Industrial Solutions Corp</div>
+                    <div class="font-bold text-white text-xl">David Thompson</div>
+                    <div class="text-primary font-semibold text-lg">Industrial Solutions Corp</div>
                   </div>
                 </div>
               </div>
@@ -763,60 +743,7 @@
     </div>
   </section>
 
-  <!-- Reviews Section -->
-  <section class="py-4 bg-gray-900/50 border-t border-gray-800">
-    <div class="container mx-auto px-4 sm:px-6">
-      <div class="text-center">
-        <button id="toggle-reviews" class="text-primary hover:text-white font-medium transition-colors duration-300 flex items-center gap-2 mx-auto">
-          <span>View More Reviews</span>
-          <svg id="toggle-icon" class="w-4 h-4 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-          </svg>
-        </button>
-        
-        <div id="hidden-content" class="hidden mt-6 pt-6 border-t border-gray-700">
-          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-6">
-            <div class="bg-gray-800/50 p-6 rounded-lg border border-primary/20 min-h-[200px] flex flex-col justify-between">
-              <div>
-                <div class="flex items-center gap-1 mb-4">
-                  <span class="text-primary text-lg">★★★★★</span>
-                </div>
-                <p class="text-gray-300 mb-4 text-sm leading-relaxed">"Technova delivered our e-commerce platform on time with exceptional quality. Their team understood our requirements perfectly and provided excellent support throughout the project."</p>
-              </div>
-              <div class="border-t border-gray-600 pt-3 mt-auto">
-                <div class="font-semibold text-white text-sm">Robert Johnson</div>
-                <div class="text-xs text-primary">CEO, Digital Commerce Ltd</div>
-              </div>
-            </div>
-            <div class="bg-gray-800/50 p-6 rounded-lg border border-primary/20 min-h-[200px] flex flex-col justify-between">
-              <div>
-                <div class="flex items-center gap-1 mb-4">
-                  <span class="text-primary text-lg">★★★★★</span>
-                </div>
-                <p class="text-gray-300 mb-4 text-sm leading-relaxed">"Amazing web development services! The mobile app they created for us has significantly improved our customer engagement. Highly professional team with great communication."</p>
-              </div>
-              <div class="border-t border-gray-600 pt-3 mt-auto">
-                <div class="font-semibold text-white text-sm">Lisa Chen</div>
-                <div class="text-xs text-primary">Marketing Director, TechFlow</div>
-              </div>
-            </div>
-            <div class="bg-gray-800/50 p-6 rounded-lg border border-primary/20 min-h-[200px] flex flex-col justify-between">
-              <div>
-                <div class="flex items-center gap-1 mb-4">
-                  <span class="text-primary text-lg">★★★★★</span>
-                </div>
-                <p class="text-gray-300 mb-4 text-sm leading-relaxed">"Outstanding UI/UX design work! Our website conversion rate increased by 45% after their redesign. The team's attention to detail and user experience is remarkable."</p>
-              </div>
-              <div class="border-t border-gray-600 pt-3 mt-auto">
-                <div class="font-semibold text-white text-sm">Mark Williams</div>
-                <div class="text-xs text-primary">Founder, StartupHub</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Footer -->
   <footer class="bg-black text-grey py-12 sm:py-16 border-t border-gray-800">
@@ -928,47 +855,29 @@
       const scrollDown = document.getElementById('scroll-down');
       let currentIndex = 0;
       const testimonials = document.querySelectorAll('.testimonial-card');
-      let autoScrollInterval;
       
-      function scrollToTestimonial(index) {
-        const targetScroll = index * 450;
-        scrollContainer.scrollTo({ top: targetScroll, behavior: 'smooth' });
-      }
+      // Hide all testimonials except the first one
+      testimonials.forEach((testimonial, index) => {
+        if (index !== 0) {
+          testimonial.style.display = 'none';
+        }
+      });
       
-      function startAutoScroll() {
-        autoScrollInterval = setInterval(() => {
-          currentIndex = currentIndex < testimonials.length - 1 ? currentIndex + 1 : 0;
-          scrollToTestimonial(currentIndex);
-        }, 4000);
-      }
-      
-      function stopAutoScroll() {
-        clearInterval(autoScrollInterval);
-      }
-      
-      function resetAutoScroll() {
-        stopAutoScroll();
-        setTimeout(startAutoScroll, 2000); // Resume after 2 seconds
+      function showTestimonial(index) {
+        testimonials.forEach((testimonial, i) => {
+          testimonial.style.display = i === index ? 'flex' : 'none';
+        });
       }
       
       scrollUp.addEventListener('click', () => {
         currentIndex = currentIndex > 0 ? currentIndex - 1 : testimonials.length - 1;
-        scrollToTestimonial(currentIndex);
-        resetAutoScroll();
+        showTestimonial(currentIndex);
       });
       
       scrollDown.addEventListener('click', () => {
         currentIndex = currentIndex < testimonials.length - 1 ? currentIndex + 1 : 0;
-        scrollToTestimonial(currentIndex);
-        resetAutoScroll();
+        showTestimonial(currentIndex);
       });
-      
-      // Pause auto-scroll on hover
-      scrollContainer.addEventListener('mouseenter', stopAutoScroll);
-      scrollContainer.addEventListener('mouseleave', startAutoScroll);
-      
-      // Start auto-scroll
-      startAutoScroll();
     });
     
     // Toggle reviews section
