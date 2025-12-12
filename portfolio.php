@@ -117,126 +117,37 @@
 
 </header>
 
-  <!-- Hero Section -->
-  <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black pt-20">
-    <div class="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23E11D48" fill-opacity="0.05"%3E%3Ccircle cx="30" cy="30" r="1"%3E%3C/circle%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-50"></div>
-    <div class="container mx-auto px-4 sm:px-6 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Left Content -->
-        <div class="text-left mx-auto">
-          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-            Our Recent <span class="text-primary">Work</span>
-          </h1>
-          <div class="w-24 h-1 bg-primary mb-6"></div>
-          <p class="text-lg text-gray-300 mb-8 leading-relaxed max-w-lg">
-            Our portfolio is not just a catalogue, it shows cutting-edge solutions we built for our valuable clients to achieve their lucrative business dreams.
-          </p>
-          <div class="flex flex-col sm:flex-row gap-4">
-            <a href="#portfolio" class="btn text-base px-8 py-4 inline-flex items-center gap-2">
-              View Portfolio
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-              </svg>
-            </a>
-            <a href="contact.php" class="text-white hover:text-primary transition-colors duration-300 font-medium inline-flex items-center gap-2 px-8 py-4">
-              Start Project
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
+<!-- Portfolio Section -->
+<section class="py-20 bg-black pt-32">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
+        Our <span class="text-primary" id="changing-text">Portfolio</span>
+      </h1>
+      
+      <script>
+        const words = ['Portfolio', 'Projects', 'Work'];
+        let currentIndex = 0;
+        const textElement = document.getElementById('changing-text');
         
-        <!-- Right Visual Pattern -->
-        <div class="relative h-96 w-full max-w-lg me-auto ">
-          <!-- Main Code Block (Center - Large) -->
-          <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-72 h-50 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg shadow-2xl border border-gray-600 z-30">
-            <div class="p-6 text-sm text-green-400 font-mono">
-              <div class="mb-2">&lt;div class="portfolio"&gt;</div>
-              <div class="ml-4 mb-2 text-blue-400">const projects = [];</div>
-              <div class="ml-4 mb-2 text-yellow-400">const skills = ['React', 'Node'];</div>
-              <div class="ml-4 mb-2 text-primary">render();</div>
-              <div class="ml-4 mb-2 text-purple-400">deploy();</div>
-              <div>&lt;/div&gt;</div>
-            </div>
-          </div>
-          
-          <!-- Elements Around Center -->
-          
-          <!-- Top Left (Clear) -->
-          <div class="absolute top-8 left-8 w-24 h-18 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg transform -rotate-12 shadow-lg border border-gray-700 opacity-80 z-15">
-            <div class="p-2 text-center">
-              <div class="text-gray-400 text-xs font-mono mb-1">API</div>
-              <div class="flex justify-center gap-1">
-                <div class="w-1 h-1 bg-primary/60 rounded-full"></div>
-                <div class="w-1 h-1 bg-green-500/60 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Top Right (Clear) -->
-          <div class="absolute top-12 right-8 w-26 h-20 bg-gradient-to-br from-gray-700 to-gray-800 rounded transform rotate-8 shadow-lg border border-gray-600 opacity-80 z-15">
-            <div class="p-2 text-center">
-              <div class="text-gray-400 text-xs font-mono mb-1">DATABASE</div>
-              <div class="flex justify-center gap-1">
-                <div class="w-2 h-1 bg-blue-500/60 rounded-sm"></div>
-                <div class="w-2 h-1 bg-gray-500/60 rounded-sm"></div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Bottom Left (Clear) -->
-          <div class="absolute bottom-12 left-6 w-24 h-18 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl transform -rotate-6 shadow-lg border border-gray-700 opacity-80 z-15">
-            <div class="p-2 flex items-center justify-center h-full">
-              <div class="relative">
-                <div class="w-6 h-6 border border-primary/60 rounded-full"></div>
-                <div class="absolute top-1 left-1 w-4 h-4 bg-primary/30 rounded-full"></div>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Bottom Right (Clear) -->
-          <div class="absolute bottom-8 right-6 w-28 h-20 bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl transform rotate-4 shadow-lg border border-gray-600 opacity-80 z-15">
-            <div class="p-2 flex flex-wrap gap-1 items-center justify-center h-full">
-              <div class="w-4 h-4 bg-primary/40 rounded border border-primary/60 flex items-center justify-center text-xs text-primary font-bold">JS</div>
-              <div class="w-4 h-4 bg-gray-600/40 rounded border border-gray-500/60 flex items-center justify-center text-xs text-gray-300 font-bold">PY</div>
-            </div>
-          </div>
-          
-          <!-- Left Side (Blurred) -->
-          <div class="absolute top-1/2 left-2 transform -translate-y-1/2 w-16 h-20 bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg transform -rotate-8 shadow-lg border border-gray-700 blur-sm opacity-50 z-5">
-            <div class="p-2 text-center">
-              <div class="text-gray-400 text-xs font-mono">APP</div>
-            </div>
-          </div>
-          
-          <!-- Right Side (Blurred) -->
-          <div class="absolute top-1/2 right-2 transform -translate-y-1/2 w-18 h-22 bg-gradient-to-br from-gray-700 to-gray-800 rounded transform rotate-6 shadow-lg border border-gray-600 blur-sm opacity-50 z-5">
-            <div class="p-2 text-center">
-              <div class="text-gray-400 text-xs font-mono">WEB</div>
-            </div>
-          </div>
-          
-          <!-- Top Center (Blurred) -->
-          <div class="absolute top-4 left-1/2 transform -translate-x-1/2 w-20 h-12 bg-gradient-to-br from-gray-700 to-gray-800 rounded transform rotate-2 shadow-lg border border-gray-600 blur-sm opacity-40 z-5">
-            <div class="p-1 text-center">
-              <div class="text-gray-400 text-xs font-mono">CLOUD</div>
-            </div>
-          </div>
-          
-          <!-- Bottom Center (Blurred) -->
-          <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 w-22 h-14 bg-gradient-to-br from-gray-800 to-gray-900 rounded-xl transform -rotate-3 shadow-lg border border-gray-700 blur-sm opacity-40 z-5">
-            <div class="p-1 text-center">
-              <div class="text-gray-400 text-xs font-mono">SERVER</div>
-            </div>
-          </div>
-          
-          <!-- Floating Dots -->
-          <div class="absolute top-20 left-16 w-2 h-2 bg-primary/30 rounded-full blur-sm opacity-60"></div>
-          <div class="absolute top-32 right-20 w-1.5 h-1.5 bg-gray-500/40 rounded-full blur-sm opacity-50"></div>
-          <div class="absolute bottom-24 right-12 w-2 h-2 bg-primary/20 rounded-full blur-sm opacity-40"></div>
-          <div class="absolute bottom-32 left-12 w-1.5 h-1.5 bg-gray-400/30 rounded-full blur-sm opacity-50"></div>
-        </div>
+        function changeText() {
+          textElement.style.opacity = '0';
+          setTimeout(() => {
+            currentIndex = (currentIndex + 1) % words.length;
+            textElement.textContent = words[currentIndex];
+            textElement.style.opacity = '1';
+          }, 300);
+        }
+        
+        setInterval(changeText, 2000);
+      </script>
+      <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
+      <p class="text-xl text-gray-300 max-w-3xl mx-auto">
+        Explore our latest work and see how we've helped businesses transform their digital presence with cutting-edge solutions.
+      </p>
+    </div>
+  </div>
+</section>
           
          
           
@@ -249,108 +160,75 @@
   <!-- Property Showcase Section -->
   <section class="py-20 sm:py-28 bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
     <div class="container mx-auto px-4 sm:px-6 relative z-10">
-      <div class="flex items-center justify-center relative">
-        <!-- Background Text Card (Behind) -->
-        <div class="bg-gradient-to-br from-gray-800/60 to-gray-900/80 backdrop-blur-xl rounded-3xl p-16 pl-[36rem] pr-16 border border-gray-700/50 shadow-2xl relative z-10 w-full max-w-[90rem]">
-          <div class="max-w-3xl">
-            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8">
-              PROPERTY
-            </h2>
-            
-            <!-- Tech Stack Tags -->
-            <div class="flex flex-wrap gap-3 mb-8">
-              <span class="px-4 py-2 bg-transparent border border-green-500 text-green-400 rounded-full text-sm font-medium hover:bg-green-500 hover:text-white transition-all duration-300">
-                Next.Js
-              </span>
-              <span class="px-4 py-2 bg-transparent border border-blue-500 text-blue-400 rounded-full text-sm font-medium hover:bg-blue-500 hover:text-white transition-all duration-300">
-                TypeScript
-              </span>
-              <span class="px-4 py-2 bg-transparent border border-cyan-500 text-cyan-400 rounded-full text-sm font-medium hover:bg-cyan-500 hover:text-white transition-all duration-300">
-                Tailwind CSS
-              </span>
-            </div>
-            
-            <!-- Description -->
-            <p class="text-lg text-gray-300 mb-8 leading-relaxed">
-              Property is a leading online platform connecting landlords with tenants across the World. With a focus on simplicity, efficiency, and transparency, the platform facilitates property rental transactions, offering landlords various services from advertising their properties to finding suitable tenants.
-            </p>
-            
-            <!-- CTA Button -->
-            <a href="#" class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-              View Details
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-              </svg>
-            </a>
-          </div>
-        </div>
-        
-        <!-- Foreground Image Card (On Top) -->
-        <div class="bg-gradient-to-br from-slate-700/80 to-slate-800/90 backdrop-blur-xl rounded-3xl p-12 border border-slate-600/50 shadow-2xl w-[32rem] h-[32rem] flex items-center justify-center absolute left-16 z-20">
-          <div class="relative transform hover:scale-105 transition-transform duration-700">
-            <div class="relative w-full max-w-xs mx-auto">
-              <!-- Laptop Frame -->
-              <div class="bg-gradient-to-br from-gray-700 to-gray-900 rounded-t-2xl p-3 shadow-2xl">
-                <div class="bg-white rounded-xl overflow-hidden shadow-inner">
-                  <!-- Browser Header -->
-                  <div class="bg-gray-100 h-5 flex items-center px-2 gap-2">
-                    <div class="flex gap-1">
-                      <div class="w-2 h-2 bg-red-400 rounded-full"></div>
-                      <div class="w-2 h-2 bg-yellow-400 rounded-full"></div>
-                      <div class="w-2 h-2 bg-green-400 rounded-full"></div>
-                    </div>
-                    <div class="flex-1 bg-white h-3 rounded-full mx-2 flex items-center px-2">
-                      <div class="text-xs text-gray-400">property.com</div>
-                    </div>
-                  </div>
-                  
-                  <!-- Website Content -->
-                  <div class="p-3 bg-gradient-to-br from-teal-50 to-blue-50">
-                    <!-- Header -->
-                    <div class="flex items-center justify-between mb-3">
-                      <div class="flex items-center gap-1">
-                        <div class="w-5 h-5 bg-teal-500 rounded-lg flex items-center justify-center">
-                          <div class="w-2.5 h-2.5 bg-white rounded-sm"></div>
-                        </div>
-                        <span class="font-bold text-gray-800 text-xs">Property</span>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
+        <!-- Left Side - Image Card -->
+        <div class="relative">
+          <div class="bg-gradient-to-br from-slate-700/90 to-slate-800/95 backdrop-blur-xl rounded-3xl p-12 border border-slate-600/50 shadow-2xl hover:shadow-3xl transition-all duration-700">
+            <div class="relative transform hover:scale-105 transition-transform duration-700">
+              <div class="relative w-full max-w-md mx-auto">
+                <!-- Laptop Frame -->
+                <div class="bg-gradient-to-br from-gray-700 to-gray-900 rounded-t-3xl p-4 shadow-2xl">
+                  <div class="bg-white rounded-2xl overflow-hidden shadow-inner">
+                    <!-- Browser Header -->
+                    <div class="bg-gray-100 h-6 flex items-center px-3 gap-2">
+                      <div class="flex gap-1">
+                        <div class="w-2.5 h-2.5 bg-red-400 rounded-full"></div>
+                        <div class="w-2.5 h-2.5 bg-yellow-400 rounded-full"></div>
+                        <div class="w-2.5 h-2.5 bg-green-400 rounded-full"></div>
                       </div>
-                      <div class="flex gap-2 text-xs text-gray-600">
-                        <span>Landlords</span>
-                        <span>Tenants</span>
+                      <div class="flex-1 bg-white h-4 rounded-full mx-3 flex items-center px-2">
+                        <div class="text-xs text-gray-400">property.com</div>
                       </div>
                     </div>
                     
-                    <!-- Main Content -->
-                    <div class="grid grid-cols-2 gap-2">
-                      <!-- Left Content -->
-                      <div>
-                        <h2 class="text-xs font-bold text-gray-800 mb-1">Happy tenants,<br>hassle-free.</h2>
-                        <p class="text-xs text-gray-600 mb-2">Advertise your property, choose the best tenants, always get your rent on time - all in one place.</p>
-                        <div class="flex gap-1">
-                          <button class="bg-teal-500 text-white px-1.5 py-0.5 rounded text-xs font-medium">View my property</button>
-                          <button class="border border-gray-300 px-1.5 py-0.5 rounded text-xs">Talk to an expert</button>
+                    <!-- Website Content -->
+                    <div class="p-4 bg-gradient-to-br from-teal-50 to-blue-50">
+                      <!-- Header -->
+                      <div class="flex items-center justify-between mb-4">
+                        <div class="flex items-center gap-2">
+                          <div class="w-6 h-6 bg-teal-500 rounded-lg flex items-center justify-center">
+                            <div class="w-3 h-3 bg-white rounded-sm"></div>
+                          </div>
+                          <span class="font-bold text-gray-800 text-sm">Property</span>
+                        </div>
+                        <div class="flex gap-3 text-xs text-gray-600">
+                          <span>Landlords</span>
+                          <span>Tenants</span>
                         </div>
                       </div>
                       
-                      <!-- Right Content - Property Image -->
-                      <div class="relative">
-                        <div class="bg-gradient-to-br from-green-400 to-blue-500 rounded-lg h-16 relative overflow-hidden">
-                          <!-- House illustration -->
-                          <div class="absolute bottom-0 right-1 w-10 h-10 bg-yellow-200 rounded-t-lg">
-                            <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-3 border-transparent border-b-red-600"></div>
-                            <div class="absolute bottom-1 left-1 w-1.5 h-2 bg-blue-600 rounded-sm"></div>
-                            <div class="absolute bottom-1 right-1 w-1.5 h-1.5 bg-yellow-400 rounded-sm"></div>
+                      <!-- Main Content -->
+                      <div class="grid grid-cols-2 gap-3">
+                        <!-- Left Content -->
+                        <div>
+                          <h2 class="text-sm font-bold text-gray-800 mb-2">Happy tenants,<br>hassle-free.</h2>
+                          <p class="text-xs text-gray-600 mb-3">Advertise your property, choose the best tenants, always get your rent on time - all in one place.</p>
+                          <div class="flex gap-1">
+                            <button class="bg-teal-500 text-white px-2 py-1 rounded text-xs font-medium">View my property</button>
+                            <button class="border border-gray-300 px-2 py-1 rounded text-xs">Talk to an expert</button>
                           </div>
                         </div>
                         
-                        <!-- Property Card -->
-                        <div class="absolute -bottom-1 -right-1 bg-white rounded-lg p-1 shadow-lg border">
-                          <div class="text-xs font-medium">Next steps</div>
-                          <div class="flex items-center gap-1 mt-0.5">
-                            <div class="flex -space-x-0.5">
-                              <div class="w-2.5 h-2.5 bg-blue-400 rounded-full border border-white"></div>
-                              <div class="w-2.5 h-2.5 bg-green-400 rounded-full border border-white"></div>
-                              <div class="w-2.5 h-2.5 bg-yellow-400 rounded-full border border-white"></div>
+                        <!-- Right Content - Property Image -->
+                        <div class="relative">
+                          <div class="bg-gradient-to-br from-green-400 to-blue-500 rounded-lg h-20 relative overflow-hidden">
+                            <!-- House illustration -->
+                            <div class="absolute bottom-0 right-1 w-12 h-12 bg-yellow-200 rounded-t-lg">
+                              <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-3 border-transparent border-b-red-600"></div>
+                              <div class="absolute bottom-1 left-1 w-1.5 h-2 bg-blue-600 rounded-sm"></div>
+                              <div class="absolute bottom-1 right-1 w-1.5 h-1.5 bg-yellow-400 rounded-sm"></div>
+                            </div>
+                          </div>
+                          
+                          <!-- Property Card -->
+                          <div class="absolute -bottom-1 -right-1 bg-white rounded-lg p-1.5 shadow-lg border">
+                            <div class="text-xs font-medium">Next steps</div>
+                            <div class="flex items-center gap-1 mt-0.5">
+                              <div class="flex -space-x-0.5">
+                                <div class="w-2.5 h-2.5 bg-blue-400 rounded-full border border-white"></div>
+                                <div class="w-2.5 h-2.5 bg-green-400 rounded-full border border-white"></div>
+                                <div class="w-2.5 h-2.5 bg-yellow-400 rounded-full border border-white"></div>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -358,169 +236,58 @@
                     </div>
                   </div>
                 </div>
-              </div>
-              
-              <!-- Laptop Base -->
-              <div class="bg-gradient-to-b from-gray-600 to-gray-800 h-3 rounded-b-2xl shadow-2xl">
-                <div class="flex justify-center pt-0.5">
-                  <div class="w-12 h-0.5 bg-gray-500 rounded-full"></div>
+                
+                <!-- Laptop Base -->
+                <div class="bg-gradient-to-b from-gray-600 to-gray-800 h-4 rounded-b-3xl shadow-2xl">
+                  <div class="flex justify-center pt-0.5">
+                    <div class="w-16 h-0.5 bg-gray-500 rounded-full"></div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Portfolio Section -->
-<section id="portfolio" class="pt-24 sm:pt-32 py-20 sm:py-28 relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
-    <!-- Background Elements -->
-    <div class="absolute inset-0">
-      <div class="absolute top-0 left-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
-      <div class="absolute bottom-0 right-0 w-80 h-80 bg-blue-500/5 rounded-full blur-3xl"></div>
-    </div>
-    
-    <div class="container mx-auto px-4 sm:px-6 relative z-10">
-      <div class="mb-16 sm:mb-20 reveal">
-        <div class="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 mb-12">
-          <div class="flex-1">
-            <div class="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
-              <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-              <span class="text-primary text-sm font-medium">OUR WORK</span>
-            </div>
-            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
-              <span class="text-white">Featured </span>
-              <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">Portfolio</span>
-            </h2>
-            <p class="text-xl text-gray-300 max-w-3xl leading-relaxed">Explore our diverse portfolio of successful projects across various industries, showcasing innovation and excellence in every solution.</p>
+        
+        <!-- Right Side - Text Block -->
+        <div class="flex flex-col justify-center">
+          <!-- Main Title -->
+          <h2 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 tracking-tight">
+            PROPERTY
+          </h2>
+          
+          <!-- Tech Stack Tags -->
+          <div class="flex flex-wrap gap-3 mb-8">
+            <span class="px-6 py-3 bg-transparent border-2 border-green-500 text-green-400 rounded-full text-sm font-semibold hover:bg-green-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-green-500/25">
+              Next.Js
+            </span>
+            <span class="px-6 py-3 bg-transparent border-2 border-blue-500 text-blue-400 rounded-full text-sm font-semibold hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
+              TypeScript
+            </span>
+            <span class="px-6 py-3 bg-transparent border-2 border-cyan-500 text-cyan-400 rounded-full text-sm font-semibold hover:bg-cyan-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-cyan-500/25">
+              Tailwind CSS
+            </span>
           </div>
           
-
-        </div>
-      </div>
-
-      <!-- 3-Card Carousel -->
-      <div class="relative overflow-hidden">
-        <div id="carousel-container" class="flex justify-center items-center gap-8 px-4 py-8">
-          <!-- ShopCart Project -->
-          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
-            <div class="relative h-48 overflow-hidden">
-              <img src="uploads/images/e-commerce1.webp" alt="ShopCart" class="w-full h-full object-cover">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-              <div class="absolute bottom-4 left-4">
-                <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium">E-COMMERCE</span>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-white mb-2">ShopCart</h3>
-              <p class="text-gray-400 mb-4">Complete E-commerce Platform Solution</p>
-              <div class="flex gap-2 mb-4">
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">React</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Node.js</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">MongoDB</span>
-              </div>
-              <a href="shopcart.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
-                View Project
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- 9-ELEVEN WRAP ERP -->
-          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
-            <div class="relative h-48 overflow-hidden">
-              <img src="uploads/images/Dashboard1.png" alt="9-ELEVEN WRAP ERP" class="w-full h-full object-cover">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-              <div class="absolute bottom-4 left-4">
-                <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">ENTERPRISE</span>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-white mb-2">9-ELEVEN WRAP ERP</h3>
-              <p class="text-gray-400 mb-4">Enterprise Resource Planning System</p>
-              <div class="flex gap-2 mb-4">
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Next.js</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">MongoDB</span>
-              </div>
-              <a href="erp.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
-                View Details
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Jungle Adventure -->
-          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
-            <div class="relative h-48 overflow-hidden">
-              <img src="uploads/images/jungle-game.webp" alt="Jungle Adventure" class="w-full h-full object-cover">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-              <div class="absolute bottom-4 left-4">
-                <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium">GAMING</span>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-white mb-2">Jungle Adventure</h3>
-              <p class="text-gray-400 mb-4">Immersive Mobile Gaming Experience</p>
-              <div class="flex gap-2 mb-4">
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Unity</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">C#</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Android</span>
-              </div>
-              <a href="JungleAdventure.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
-                Play Demo
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Insurance Platform -->
-          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
-            <div class="relative h-48 overflow-hidden">
-              <img src="uploads/images/insurance-web.webp" alt="Insurance Platform" class="w-full h-full object-cover">
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
-              <div class="absolute bottom-4 left-4">
-                <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">FINTECH</span>
-              </div>
-            </div>
-            <div class="p-6">
-              <h3 class="text-xl font-bold text-white mb-2">Insurance Platform</h3>
-              <p class="text-gray-400 mb-4">Digital Insurance Management System</p>
-              <div class="flex gap-2 mb-4">
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Laravel</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">MySQL</span>
-                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Vue.js</span>
-              </div>
-              <a href="Insurancecase.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
-                Case Study
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                </svg>
-              </a>
-            </div>
+          <!-- Description -->
+          <p class="text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
+            Property is a leading online platform connecting landlords with tenants across the World. With a focus on simplicity, efficiency, and transparency, the platform facilitates property rental transactions, offering landlords various services from advertising their properties to finding suitable tenants.
+          </p>
+          
+          <!-- CTA Button -->
+          <div>
+            <a href="#" class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25">
+              View Details
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </a>
           </div>
         </div>
-        
-        <!-- Navigation Arrows -->
-        <button id="prev-btn" class="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-primary rounded-full flex items-center justify-center transition-all duration-300 z-20">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
-        </button>
-        <button id="next-btn" class="absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-primary rounded-full flex items-center justify-center transition-all duration-300 z-20">
-          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-          </svg>
-        </button>
       </div>
     </div>
   </section>
+
+
 
 
 
