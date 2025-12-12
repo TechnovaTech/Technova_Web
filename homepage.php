@@ -353,7 +353,7 @@
         </div>
 
         <div class="max-w-6xl mx-auto bg-gradient-to-r from-gray-900/80 to-black/80 rounded-3xl border border-red-500/20 overflow-hidden">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[350px]">
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-0 min-h-[400px]">
             <div class="bg-gradient-to-br from-red-900/30 to-black/50 p-8 lg:p-12 flex items-center justify-center border-r border-red-500/20">
               <div class="text-center">
                 <h3 class="text-2xl lg:text-3xl font-bold text-white mb-4">
@@ -363,32 +363,216 @@
               </div>
             </div>
 
-            <div class="p-6 pb-8 min-h-[350px] flex flex-col justify-between">
-              <div>
-                <div class="flex items-start gap-6 mb-6">
-                  <div class="flex-shrink-0">
-                    <div class="w-16 h-16 bg-gradient-to-br from-red-600/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-red-600/30">
-                      <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+            <div class="relative h-[400px]" id="testimonial-container">
+              <!-- Navigation Arrows -->
+              <button id="scroll-up" class="absolute top-6 right-6 w-10 h-10 bg-red-600/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-red-600 hover:scale-110 transition-all duration-300 z-20 border border-red-600/30 group">
+                <svg class="w-5 h-5 text-red-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
+                </svg>
+              </button>
+              <button id="scroll-down" class="absolute bottom-6 right-6 w-10 h-10 bg-red-600/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-red-600 hover:scale-110 transition-all duration-300 z-20 border border-red-600/30 group">
+                <svg class="w-5 h-5 text-red-600 group-hover:text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg>
+              </button>
+
+              <!-- Testimonial 1 -->
+              <div class="testimonial-card p-6 pb-8 min-h-[400px] flex flex-col justify-between">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-red-600/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-red-600/30">
+                        <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-red-600/30 mb-2">"</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Hi, this is Erika from Sweden. I am the managing director of Zorbeto. We are just launching a web shop that Technova has built in Laravel PHP and I like working with Technova.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        They are quick to respond and nothing is impossible. We will definitely continue to work with them on a regular basis, that is for sure.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-auto pt-6 border-t border-red-500/20">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <div class="font-bold text-white text-xl mb-1">Erica Lindgren</div>
+                      <div class="text-red-600 font-semibold text-base">Managing Director, Zorbeto AB</div>
+                      <div class="text-gray-400 text-sm mt-1">Sweden</div>
+                    </div>
+                    <div class="flex text-yellow-400">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
                       </svg>
                     </div>
                   </div>
-                  <div class="flex-1">
-                    <div class="text-4xl text-red-600/30 mb-2">"</div>
-                    <p class="text-gray-300 mb-4 leading-relaxed text-lg">
-                      Hi, this is Erika from Sweden. I am the managing director of Zorbeto. We are just launching a web shop that Technova has built in Laravel PHP and I like working with Technova.
-                    </p>
-                    <p class="text-gray-300 mb-6 leading-relaxed">
-                      They are quick to respond and nothing is impossible. We will definitely continue to work with them on a regular basis, that is for sure.
-                    </p>
+                </div>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="testimonial-card p-6 pb-8 min-h-[400px] flex flex-col justify-between" style="display: none;">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-red-600/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-red-600/30">
+                        <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-red-600/30 mb-2">"</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Technova Technologies delivered an exceptional mobile app for our business. Their team's expertise in Flutter development exceeded our expectations.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        The project was completed on time and within budget. Their communication throughout the process was outstanding.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-auto pt-6 border-t border-red-500/20">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <div class="font-bold text-white text-xl mb-1">Michael Johnson</div>
+                      <div class="text-red-600 font-semibold text-base">CEO, TechStart Inc.</div>
+                      <div class="text-gray-400 text-sm mt-1">United States</div>
+                    </div>
+                    <div class="flex text-yellow-400">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </div>
-              
-              <div class="mt-6 pt-4 border-t border-red-500/20">
-                <div class="text-center">
-                  <div class="font-bold text-white text-xl">Erica Lindgren</div>
-                  <div class="text-red-600 font-semibold text-lg">Zorbeto AB</div>
+
+              <!-- Testimonial 3 -->
+              <div class="testimonial-card p-6 pb-8 min-h-[400px] flex flex-col justify-between" style="display: none;">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-red-600/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-red-600/30">
+                        <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-red-600/30 mb-2">"</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        Working with Technova has been a game-changer for our e-commerce platform. Their SaaS solutions are robust and scalable.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        The team's attention to detail and commitment to quality is remarkable. Highly recommended for any tech project.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-auto pt-6 border-t border-red-500/20">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <div class="font-bold text-white text-xl mb-1">Sarah Chen</div>
+                      <div class="text-red-600 font-semibold text-base">CTO, Digital Commerce Ltd.</div>
+                      <div class="text-gray-400 text-sm mt-1">Singapore</div>
+                    </div>
+                    <div class="flex text-yellow-400">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Testimonial 4 -->
+              <div class="testimonial-card p-6 pb-8 min-h-[400px] flex flex-col justify-between" style="display: none;">
+                <div>
+                  <div class="flex items-start gap-6 mb-6">
+                    <div class="flex-shrink-0">
+                      <div class="w-16 h-16 bg-gradient-to-br from-red-600/20 to-red-600/20 rounded-full flex items-center justify-center border-2 border-red-600/30">
+                        <svg class="w-8 h-8 text-red-600" fill="currentColor" viewBox="0 0 24 24">
+                          <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
+                        </svg>
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="text-4xl text-red-600/30 mb-2">"</div>
+                      <p class="text-gray-300 mb-4 leading-relaxed text-lg">
+                        The UI/UX design services provided by Technova transformed our brand identity completely. Their creative approach is unmatched.
+                      </p>
+                      <p class="text-gray-300 mb-6 leading-relaxed">
+                        Professional, innovative, and reliable - everything you need in a technology partner.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-auto pt-6 border-t border-red-500/20">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <div class="font-bold text-white text-xl mb-1">David Rodriguez</div>
+                      <div class="text-red-600 font-semibold text-base">Creative Director, Creative Solutions</div>
+                      <div class="text-gray-400 text-sm mt-1">Canada</div>
+                    </div>
+                    <div class="flex text-yellow-400">
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                      <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                      </svg>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -441,6 +625,30 @@
     // Mobile menu toggle
     document.getElementById('mobile-menu-button').addEventListener('click', function() {
       document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+    
+    // Testimonial arrow controls
+    document.addEventListener('DOMContentLoaded', function() {
+      const scrollUp = document.getElementById('scroll-up');
+      const scrollDown = document.getElementById('scroll-down');
+      let currentIndex = 0;
+      const testimonials = document.querySelectorAll('.testimonial-card');
+      
+      function showTestimonial(index) {
+        testimonials.forEach((testimonial, i) => {
+          testimonial.style.display = i === index ? 'flex' : 'none';
+        });
+      }
+      
+      scrollUp.addEventListener('click', () => {
+        currentIndex = currentIndex > 0 ? currentIndex - 1 : testimonials.length - 1;
+        showTestimonial(currentIndex);
+      });
+      
+      scrollDown.addEventListener('click', () => {
+        currentIndex = currentIndex < testimonials.length - 1 ? currentIndex + 1 : 0;
+        showTestimonial(currentIndex);
+      });
     });
   </script>
 </body>

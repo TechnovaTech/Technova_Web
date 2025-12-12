@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KFFHE33255"></script>
@@ -13,14 +12,14 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Technova Technologies - Premium Tech Company</title>
-  <meta name="description" content="A holistic digital agency specializing in UI/UX, web design, web development, and ecommerce solutions.">
+  <title>Yari - Project Detail</title>
+  <meta name="description" content="Detailed view of our portfolio project - Technova Technologies">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
   <script src="https://cdn.tailwindcss.com"></script>
   <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
   <script>
     tailwind.config = {
@@ -43,22 +42,35 @@
       },
     }
   </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+  <style>
+    body {
+      font-family: "Inter", sans-serif;
+      background-color: black;
+      color: white;
+    }
+    
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #E11D48;
+      color: white;
+      border-radius: 50px;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+    
+    .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(225, 29, 72, 0.3);
+    }
+  </style>
 </head>
 
 <body>
-  <!-- Main Content -->
-  <div class="hidden" id="main-content">
-    <h1 class="text-3xl text-center mt-10">Welcome to Technova Technologies</h1>
-    <p class="text-center mt-4">Your one-stop solution for technology needs.</p>
-  </div>
-
-  <!-- Custom Cursor -->
-  <div class="cursor-dot hidden md:block"></div>
-  <div class="cursor-outline hidden md:block"></div>
-
- <!-- Header/Navigation -->
-  <header class="fixed top-0 w-full z-50 transition-all duration-300" style="background-color: rgba(0,0,0,0.9); backdrop-filter: blur(10px);">
+  <!-- Header/Navigation -->
+<header class="fixed top-0 w-full z-50 transition-all duration-300" style="background-color: rgba(0,0,0,0.9); backdrop-filter: blur(10px);">
   <div class="container mx-auto px-4 flex h-20 items-center justify-between">
     <a href="#" class="flex items-center gap-2 group">
       <img src="logo.svg" alt="Logo" class="h-8 sm:h-10 w-auto transition-transform duration-300 transform group-hover:scale-110" />
@@ -117,178 +129,59 @@
 
 </header>
 
-<!-- Portfolio Section -->
-<section class="py-20 bg-black pt-32">
-  <div class="container mx-auto px-4">
-    <div class="text-center mb-16">
-      <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-        Our <span class="text-primary" id="changing-text">Portfolio</span>
-      </h1>
-      
-      <script>
-        const words = ['Portfolio', 'Projects', 'Work'];
-        let currentIndex = 0;
-        const textElement = document.getElementById('changing-text');
-        
-        function changeText() {
-          textElement.style.opacity = '0';
-          setTimeout(() => {
-            currentIndex = (currentIndex + 1) % words.length;
-            textElement.textContent = words[currentIndex];
-            textElement.style.opacity = '1';
-          }, 300);
-        }
-        
-        setInterval(changeText, 2000);
-      </script>
-      <div class="w-24 h-1 bg-primary mx-auto mb-6"></div>
-      <p class="text-xl text-gray-300 max-w-3xl mx-auto">
-        Explore our latest work and see how we've helped businesses transform their digital presence with cutting-edge solutions.
-      </p>
-    </div>
-  </div>
-</section>
-          
-         
-
-  <!-- Property Showcase Section -->
-  <section class="py-20 sm:py-28 bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
-    <div class="container mx-auto px-4 sm:px-6 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
-        <!-- Left Side - Image Card -->
-        <div class="relative">
-          <div class="bg-gradient-to-br from-slate-700/90 to-slate-800/95 backdrop-blur-xl rounded-3xl p-12 border border-slate-600/50 shadow-2xl hover:shadow-3xl transition-all duration-700">
-            <div class="relative transform hover:scale-105 transition-transform duration-700">
-              <div class="relative w-full max-w-md mx-auto">
-                <!-- Laptop Frame -->
-                <div class="bg-gradient-to-br from-gray-700 to-gray-900 rounded-t-3xl p-4 shadow-2xl">
-                  <div class="bg-white rounded-2xl overflow-hidden shadow-inner">
-                    <!-- Browser Header -->
-                    <div class="bg-gray-100 h-6 flex items-center px-3 gap-2">
-                      <div class="flex gap-1">
-                        <div class="w-2.5 h-2.5 bg-red-400 rounded-full"></div>
-                        <div class="w-2.5 h-2.5 bg-yellow-400 rounded-full"></div>
-                        <div class="w-2.5 h-2.5 bg-green-400 rounded-full"></div>
-                      </div>
-                      <div class="flex-1 bg-white h-4 rounded-full mx-3 flex items-center px-2">
-                        <div class="text-xs text-gray-400">property.com</div>
-                      </div>
-                    </div>
-                    
-                    <!-- Website Content -->
-                    <div class="p-4 bg-gradient-to-br from-teal-50 to-blue-50">
-                      <!-- Header -->
-                      <div class="flex items-center justify-between mb-4">
-                        <div class="flex items-center gap-2">
-                          <div class="w-6 h-6 bg-teal-500 rounded-lg flex items-center justify-center">
-                            <div class="w-3 h-3 bg-white rounded-sm"></div>
-                          </div>
-                          <span class="font-bold text-gray-800 text-sm">Property</span>
-                        </div>
-                        <div class="flex gap-3 text-xs text-gray-600">
-                          <span>Landlords</span>
-                          <span>Tenants</span>
-                        </div>
-                      </div>
-                      
-                      <!-- Main Content -->
-                      <div class="grid grid-cols-2 gap-3">
-                        <!-- Left Content -->
-                        <div>
-                          <h2 class="text-sm font-bold text-gray-800 mb-2">Happy tenants,<br>hassle-free.</h2>
-                          <p class="text-xs text-gray-600 mb-3">Advertise your property, choose the best tenants, always get your rent on time - all in one place.</p>
-                          <div class="flex gap-1">
-                            <button class="bg-teal-500 text-white px-2 py-1 rounded text-xs font-medium">View my property</button>
-                            <button class="border border-gray-300 px-2 py-1 rounded text-xs">Talk to an expert</button>
-                          </div>
-                        </div>
-                        
-                        <!-- Right Content - Property Image -->
-                        <div class="relative">
-                          <div class="bg-gradient-to-br from-green-400 to-blue-500 rounded-lg h-20 relative overflow-hidden">
-                            <!-- House illustration -->
-                            <div class="absolute bottom-0 right-1 w-12 h-12 bg-yellow-200 rounded-t-lg">
-                              <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-b-3 border-transparent border-b-red-600"></div>
-                              <div class="absolute bottom-1 left-1 w-1.5 h-2 bg-blue-600 rounded-sm"></div>
-                              <div class="absolute bottom-1 right-1 w-1.5 h-1.5 bg-yellow-400 rounded-sm"></div>
-                            </div>
-                          </div>
-                          
-                          <!-- Property Card -->
-                          <div class="absolute -bottom-1 -right-1 bg-white rounded-lg p-1.5 shadow-lg border">
-                            <div class="text-xs font-medium">Next steps</div>
-                            <div class="flex items-center gap-1 mt-0.5">
-                              <div class="flex -space-x-0.5">
-                                <div class="w-2.5 h-2.5 bg-blue-400 rounded-full border border-white"></div>
-                                <div class="w-2.5 h-2.5 bg-green-400 rounded-full border border-white"></div>
-                                <div class="w-2.5 h-2.5 bg-yellow-400 rounded-full border border-white"></div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <!-- Laptop Base -->
-                <div class="bg-gradient-to-b from-gray-600 to-gray-800 h-4 rounded-b-3xl shadow-2xl">
-                  <div class="flex justify-center pt-0.5">
-                    <div class="w-16 h-0.5 bg-gray-500 rounded-full"></div>
-                  </div>
-                </div>
-              </div>
+  <!-- Main Content -->
+  <main class="pt-20">
+    <!-- Project Hero Section -->
+    <section style="background-color: black; padding: 80px 0;"> 
+      <div class="container mx-auto px-4">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-12 text-center">
+            <!-- Icon -->
+            <div class="mb-4">
+              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
+                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="#E11D48" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M2 17L12 22L22 17" stroke="#E11D48" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M2 12L12 17L22 12" stroke="#E11D48" stroke-width="2" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            
+            <!-- Heading -->
+            <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">YARI</h1>
+            
+            <!-- Divider Line -->
+            <div class="w-100 mx-auto mb-4" style="height: 2px; background-color: #E11D48; max-width: 800px;"></div>
+            
+            <!-- Description -->
+            <div class="mx-auto" style="max-width: 800px;">
+              <p class="text-center text-lg text-gray-300 leading-relaxed mb-0">
+                YARI represents our commitment to innovative digital solutions. This project showcases our expertise in creating modern, scalable applications that deliver exceptional user experiences. Built with cutting-edge technology and designed with user-centric principles, YARI demonstrates our ability to transform complex requirements into elegant, functional solutions.
+              </p>
             </div>
           </div>
         </div>
-        
-        <!-- Right Side - Text Block -->
-        <div class="flex flex-col justify-center">
-          <!-- Main Title -->
-          <h2 class="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-8 tracking-tight">
-            PROPERTY
-          </h2>
-          
-          <!-- Tech Stack Tags -->
-          <div class="flex flex-wrap gap-3 mb-8">
-            <span class="px-6 py-3 bg-transparent border-2 border-green-500 text-green-400 rounded-full text-sm font-semibold hover:bg-green-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-green-500/25">
-              Next.Js
-            </span>
-            <span class="px-6 py-3 bg-transparent border-2 border-blue-500 text-blue-400 rounded-full text-sm font-semibold hover:bg-blue-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-blue-500/25">
-              TypeScript
-            </span>
-            <span class="px-6 py-3 bg-transparent border-2 border-cyan-500 text-cyan-400 rounded-full text-sm font-semibold hover:bg-cyan-500 hover:text-white transition-all duration-300 shadow-lg hover:shadow-cyan-500/25">
-              Tailwind CSS
-            </span>
-          </div>
-          
-          <!-- Description -->
-          <p class="text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
-            Property is a leading online platform connecting landlords with tenants across the World. With a focus on simplicity, efficiency, and transparency, the platform facilitates property rental transactions, offering landlords various services from advertising their properties to finding suitable tenants.
-          </p>
-          
-          <!-- CTA Button -->
-          <div>
-            <a href="./yari.php" class="inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white px-10 py-5 rounded-2xl font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:shadow-green-500/25">
-              View Details
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-              </svg>
-            </a>
+      </div>
+    </section>
+
+    <!-- Project Gallery Section -->
+    <section class="py-16" style="background-color: #111;">
+      <div class="container mx-auto px-4">
+        <h2 class="text-center text-white text-3xl font-bold mb-8">Project Gallery</h2>
+        <div class="overflow-hidden">
+          <div class="flex animate-scroll" style="animation: scroll 15s linear infinite;">
+            <img src="uploads/images/project1.jpg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Project Image 1">
+            <img src="uploads/images/project2.jpg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Project Image 2">
+            <img src="uploads/images/project3.jpg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Project Image 3">
+            <img src="uploads/images/project4.jpg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Project Image 4">
+            <img src="uploads/images/project1.jpg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Project Image 1">
+            <img src="uploads/images/project2.jpg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Project Image 2">
           </div>
         </div>
       </div>
-    </div>
-  </section>
-
-
-
-
-
- 
+    </section>
+  </main>
 
   <!-- Footer -->
-  <footer class="bg-black text-grey py-12 sm:py-16 border-t border-gray-800">
+<footer class="bg-black text-grey py-12 sm:py-16 border-t border-gray-800">
     <div class="container mx-auto px-4 sm:px-6">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
             <!-- Company Info -->
@@ -378,15 +271,22 @@
     </div>
 </footer>
 
-  <!-- Back to Top Button -->
-  <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center opacity-0 invisible transition-all duration-300 hover:bg-red-700 z-50">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
-    </svg>
-  </button>
+  <!-- JavaScript -->
+  <script>
+    // Mobile menu toggle
+    document.getElementById('mobile-menu-button').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
 
-
-  <script type="text/javascript" src="script.js"></script>
+    // Scroll animation for gallery
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes scroll {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+    `;
+    document.head.appendChild(style);
+  </script>
 </body>
-
 </html>
