@@ -701,13 +701,16 @@
   }
 }
 
-/* Auto Scroll Images */
 @keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
-.image-scroll-container:hover .image-scroll-track {
+.animate-scroll:hover {
   animation-play-state: paused;
 }
 
@@ -807,24 +810,18 @@
     </div>
     </section>
 
-    <!-- Auto Scroll Images Section -->
+    <!-- Auto-Scroll Gallery -->
     <section class="py-16" style="background-color: #111;">
       <div class="container">
-        <div class="image-scroll-container" style="overflow: hidden; width: 100%;">
-          <div class="image-scroll-track" style="display: flex; animation: scroll 20s linear infinite;">
-            <img src="uploads/images/e-commerce1.webp" alt="ShopCart 1" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce2.webp" alt="ShopCart 2" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce3.webp" alt="ShopCart 3" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/Dashboard1.png" alt="ShopCart 4" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce1.webp" alt="ShopCart 5" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce2.webp" alt="ShopCart 6" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <!-- Duplicate for seamless loop -->
-            <img src="uploads/images/e-commerce1.webp" alt="ShopCart 1" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce2.webp" alt="ShopCart 2" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce3.webp" alt="ShopCart 3" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/Dashboard1.png" alt="ShopCart 4" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce1.webp" alt="ShopCart 5" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
-            <img src="uploads/images/e-commerce2.webp" alt="ShopCart 6" style="width: 300px; height: 200px; object-fit: cover; margin-right: 20px; border-radius: 12px;">
+        <h2 class="text-center text-white text-3xl font-bold mb-8">Project Gallery</h2>
+        <div class="overflow-hidden">
+          <div class="flex animate-scroll" style="animation: scroll 15s linear infinite;">
+            <img src="uploads/images/e-commerce1.webp" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0">
+            <img src="uploads/images/e-commerce2.webp" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0">
+            <img src="uploads/images/e-commerce3.webp" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0">
+            <img src="uploads/images/Dashboard1.png" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0">
+            <img src="uploads/images/e-commerce1.webp" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0">
+            <img src="uploads/images/e-commerce2.webp" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0">
           </div>
         </div>
       </div>
@@ -1036,8 +1033,10 @@
       });
     }
     window.addEventListener('scroll', revealOnScroll);
-    revealOnScroll(); // Initial check
+    revealOnScroll();
   });
+  
+
   </script>
 
 <!-- Lightbox JS -->

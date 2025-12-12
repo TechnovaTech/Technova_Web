@@ -246,249 +246,6 @@
     </div>
   </section>
 
-  <!-- Mobile App Showcase Section -->
-  <section class="py-20 sm:py-28 bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
-    <!-- Animated Background Elements -->
-    <div class="absolute inset-0">
-      <div class="absolute top-20 left-10 w-72 h-72 bg-primary/5 rounded-full blur-3xl animate-pulse-slow"></div>
-      <div class="absolute bottom-20 right-10 w-96 h-96 bg-blue-500/5 rounded-full blur-3xl animate-pulse-slow" style="animation-delay: 1s;"></div>
-      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-primary/3 to-blue-500/3 rounded-full blur-3xl opacity-50"></div>
-    </div>
-    
-    <div class="container mx-auto px-4 sm:px-6 relative z-10">
-      <div class="text-center mb-20">
-        <div class="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
-          <div class="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-          <span class="text-primary text-sm font-medium">MOBILE INNOVATION</span>
-        </div>
-        <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
-          Mobile <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500">Applications</span>
-        </h2>
-        <p class="text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">Crafting intuitive mobile experiences that users love with cutting-edge technology and seamless design</p>
-      </div>
-      
-      <!-- Phone Mockups Display -->
-      <div class="flex justify-center items-end gap-6 lg:gap-8 relative">
-        <!-- Left Phone (Modern Blur Effect) -->
-        <div class="relative transform -translate-y-12 scale-90 group">
-          <div class="absolute inset-0 bg-gradient-to-br from-primary/20 to-blue-500/20 rounded-[3rem] blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
-          <div class="relative w-64 h-[520px] bg-gradient-to-b from-gray-800 to-black rounded-[2.5rem] p-2 shadow-2xl border border-gray-700/50">
-            <div class="w-full h-full bg-black rounded-[2rem] overflow-hidden relative">
-              <!-- Dynamic Notch -->
-              <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-full z-20"></div>
-              
-              <!-- Screen Content -->
-              <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-black p-4">
-                <!-- Enhanced Status Bar -->
-                <div class="flex justify-between items-center mb-8 text-white text-sm pt-4">
-                  <div class="flex items-center gap-1">
-                    <div class="w-1 h-1 bg-green-400 rounded-full"></div>
-                    <span class="text-xs">9:41</span>
-                  </div>
-                  <div class="flex items-center gap-1">
-                    <div class="w-4 h-2 bg-white/80 rounded-sm"></div>
-                    <div class="w-1 h-3 bg-white rounded-sm"></div>
-                  </div>
-                </div>
-                
-                <!-- Modern App Interface -->
-                <div class="text-center mb-8">
-                  <div class="w-20 h-20 bg-gradient-to-br from-orange-400 via-red-500 to-pink-500 rounded-3xl mx-auto mb-4 flex items-center justify-center shadow-lg">
-                    <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                    </svg>
-                  </div>
-                  <h3 class="text-white font-semibold text-base mb-1">PowerHub</h3>
-                  <p class="text-gray-400 text-sm">Productivity Suite</p>
-                </div>
-                
-                <!-- Modern Cards -->
-                <div class="space-y-3 mb-6">
-                  <div class="bg-gradient-to-r from-gray-800/80 to-gray-700/60 rounded-2xl p-4 backdrop-blur-sm">
-                    <div class="flex items-center gap-3">
-                      <div class="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
-                        <div class="w-4 h-4 bg-white rounded-sm"></div>
-                      </div>
-                      <div class="flex-1">
-                        <div class="w-24 h-2 bg-gray-600 rounded mb-2"></div>
-                        <div class="w-20 h-1.5 bg-gray-700 rounded"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <!-- Floating Action Button -->
-                <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-                  <div class="w-14 h-14 bg-gradient-to-r from-green-400 to-emerald-500 rounded-full flex items-center justify-center shadow-lg">
-                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Center Phone (Hero/Main Focus) -->
-        <div class="relative z-20 transform scale-125 group">
-          <!-- Glowing Ring Effect -->
-          <div class="absolute inset-0 bg-gradient-to-br from-primary via-pink-500 to-blue-500 rounded-[3rem] blur-2xl opacity-30 group-hover:opacity-50 transition-all duration-1000 animate-pulse-slow"></div>
-          
-          <div class="relative w-72 h-[580px] bg-gradient-to-b from-gray-900 via-black to-gray-900 rounded-[2.8rem] p-2 shadow-2xl border border-gray-600/50">
-            <div class="w-full h-full bg-black rounded-[2.4rem] overflow-hidden relative">
-              <!-- Dynamic Island -->
-              <div class="absolute top-3 left-1/2 transform -translate-x-1/2 w-36 h-7 bg-black rounded-full z-30 border border-gray-800"></div>
-              
-              <!-- Screen Content -->
-              <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-black to-gray-900">
-                <!-- Enhanced Header -->
-                <div class="bg-gradient-to-br from-primary via-pink-500 to-purple-600 p-6 pb-10 relative overflow-hidden">
-                  <!-- Floating Elements -->
-                  <div class="absolute top-0 right-0 w-32 h-32 bg-white/10 rounded-full blur-2xl"></div>
-                  <div class="absolute bottom-0 left-0 w-24 h-24 bg-white/5 rounded-full blur-xl"></div>
-                  
-                  <div class="flex justify-between items-center mb-6 text-white text-sm pt-4 relative z-10">
-                    <div class="flex items-center gap-2">
-                      <div class="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></div>
-                      <span>9:41</span>
-                    </div>
-                    <div class="flex items-center gap-1">
-                      <div class="w-5 h-2.5 bg-white/90 rounded-sm"></div>
-                      <div class="w-1.5 h-4 bg-white rounded-sm"></div>
-                    </div>
-                  </div>
-                  
-                  <!-- Profile Section -->
-                  <div class="text-center relative z-10">
-                    <div class="w-20 h-20 bg-white/20 backdrop-blur-md rounded-full mx-auto mb-4 flex items-center justify-center border border-white/30">
-                      <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                      </svg>
-                    </div>
-                    <h2 class="text-white text-xl font-bold mb-2">Let's Get Started</h2>
-                    <p class="text-white/90 text-sm">Choose your perfect solution</p>
-                  </div>
-                </div>
-                
-                <!-- Content Area -->
-                <div class="p-6 -mt-6 relative z-10">
-                  <div class="bg-white/95 backdrop-blur-xl rounded-3xl p-6 shadow-2xl mb-6 border border-gray-200/50">
-                    <div class="grid grid-cols-2 gap-4">
-                      <div class="text-center group/item">
-                        <div class="w-12 h-12 bg-gradient-to-br from-primary/10 to-pink-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover/item:scale-110 transition-transform duration-300">
-                          <svg class="w-6 h-6 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                          </svg>
-                        </div>
-                        <span class="text-gray-800 text-sm font-semibold">Web</span>
-                      </div>
-                      <div class="text-center group/item">
-                        <div class="w-12 h-12 bg-gradient-to-br from-blue-500/10 to-purple-500/10 rounded-2xl flex items-center justify-center mx-auto mb-3 group-hover/item:scale-110 transition-transform duration-300">
-                          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                          </svg>
-                        </div>
-                        <span class="text-gray-800 text-sm font-semibold">Mobile</span>
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <!-- Enhanced Action Button -->
-                  <div class="text-center">
-                    <div class="relative group/btn">
-                      <div class="absolute inset-0 bg-gradient-to-r from-primary to-pink-500 rounded-full blur-lg opacity-50 group-hover/btn:opacity-75 transition-opacity duration-300"></div>
-                      <div class="relative w-16 h-16 bg-gradient-to-br from-primary via-pink-500 to-purple-600 rounded-full flex items-center justify-center mx-auto shadow-2xl group-hover/btn:scale-110 transition-transform duration-300">
-                        <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <!-- Right Phone (Modern Remote) -->
-        <div class="relative transform -translate-y-12 scale-90 group">
-          <div class="absolute inset-0 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-[3rem] blur-xl opacity-0 group-hover:opacity-100 transition-all duration-700"></div>
-          <div class="relative w-64 h-[520px] bg-gradient-to-b from-gray-800 to-black rounded-[2.5rem] p-2 shadow-2xl border border-gray-700/50">
-            <div class="w-full h-full bg-black rounded-[2rem] overflow-hidden relative">
-              <!-- Dynamic Notch -->
-              <div class="absolute top-2 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-full z-20"></div>
-              
-              <!-- Screen Content -->
-              <div class="absolute inset-0 bg-gradient-to-br from-gray-900 to-black p-4">
-                <!-- Enhanced Status Bar -->
-                <div class="flex justify-between items-center mb-8 text-white text-sm pt-4">
-                  <div class="flex items-center gap-1">
-                    <div class="w-1 h-1 bg-blue-400 rounded-full"></div>
-                    <span class="text-xs">9:41</span>
-                  </div>
-                  <div class="flex items-center gap-1">
-                    <div class="w-4 h-2 bg-white/80 rounded-sm"></div>
-                    <div class="w-1 h-3 bg-white rounded-sm"></div>
-                  </div>
-                </div>
-                
-                <!-- Modern Remote Interface -->
-                <div class="text-center">
-                  <!-- Enhanced Control Pad -->
-                  <div class="grid grid-cols-3 gap-4 mb-8 justify-items-center">
-                    <div></div>
-                    <div class="w-10 h-10 bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center border border-gray-600 shadow-lg">
-                      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"></path>
-                      </svg>
-                    </div>
-                    <div></div>
-                    
-                    <div class="w-10 h-10 bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center border border-gray-600 shadow-lg">
-                      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-                      </svg>
-                    </div>
-                    <div class="w-12 h-12 bg-gradient-to-br from-primary to-pink-500 rounded-full flex items-center justify-center shadow-xl border border-primary/50">
-                      <div class="w-4 h-4 bg-white rounded-full"></div>
-                    </div>
-                    <div class="w-10 h-10 bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center border border-gray-600 shadow-lg">
-                      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-                      </svg>
-                    </div>
-                    
-                    <div></div>
-                    <div class="w-10 h-10 bg-gradient-to-br from-gray-700 to-gray-800 rounded-full flex items-center justify-center border border-gray-600 shadow-lg">
-                      <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-                      </svg>
-                    </div>
-                    <div></div>
-                  </div>
-                  
-                  <!-- Modern Number Pad -->
-                  <div class="grid grid-cols-3 gap-3 text-white text-sm max-w-32 mx-auto">
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">1</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">2</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">3</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">4</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">5</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">6</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">7</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">8</div>
-                    <div class="w-8 h-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-lg flex items-center justify-center border border-gray-600 font-medium">9</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- Portfolio Section -->
 <section id="portfolio" class="pt-24 sm:pt-32 py-20 sm:py-28 relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
     <!-- Background Elements -->
@@ -512,415 +269,133 @@
             <p class="text-xl text-gray-300 max-w-3xl leading-relaxed">Explore our diverse portfolio of successful projects across various industries, showcasing innovation and excellence in every solution.</p>
           </div>
           
-          <div class="hidden lg:flex gap-3">
-            <button id="scroll-left" class="group w-14 h-14 bg-gray-800/50 hover:bg-primary border border-gray-700 hover:border-primary rounded-2xl flex items-center justify-center transition-all duration-300 backdrop-blur-sm">
-              <svg class="w-6 h-6 text-gray-300 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-              </svg>
-            </button>
-            <button id="scroll-right" class="group w-14 h-14 bg-gray-800/50 hover:bg-primary border border-gray-700 hover:border-primary rounded-2xl flex items-center justify-center transition-all duration-300 backdrop-blur-sm">
-              <svg class="w-6 h-6 text-gray-300 group-hover:text-white transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-              </svg>
-            </button>
-          </div>
+
         </div>
       </div>
 
-      <!-- Horizontal Scrolling Portfolio -->
-      <div id="portfolio-container" class="overflow-x-auto pb-6 scroll-smooth" style="scrollbar-width: thin; scrollbar-color: #E11D48 #1F2937;">
-        <div class="flex gap-6 px-2" style="width: max-content;">
-          <!-- ShopCart Project Card -->
-          <div class="portfolio-card group relative overflow-hidden" style="transition-delay: 100ms;">
-            <!-- E-commerce Background Pattern -->
-            <div class="absolute inset-0 bg-black rounded-3xl">
-              <div class="absolute inset-0 opacity-20">
-                <div class="absolute top-6 right-6 w-6 h-6 border border-green-500/30 rounded-full"></div>
-                <div class="absolute bottom-8 left-6 w-4 h-4 bg-green-500/20 rounded-full"></div>
-                <div class="absolute top-12 left-8 w-8 h-8 border border-primary/20 transform rotate-45"></div>
-              </div>
-            </div>
-            
-            <!-- Modern Card Design -->
-            <div class="relative bg-gradient-to-br from-gray-900/95 via-gray-800/90 to-gray-900/95 backdrop-blur-xl border border-gray-700/40 rounded-3xl overflow-hidden group-hover:border-green-500/40 transition-all duration-500 hover:shadow-2xl hover:shadow-green-500/10">
-              <!-- Enhanced Image Section -->
-              <div class="relative h-48 overflow-hidden">
-                <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-emerald-500/5"></div>
-                <img src="uploads/images/e-commerce1.webp" alt="ShopCart" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-700">
-                
-                <!-- E-commerce Overlay -->
-                <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-                
-                <!-- Shopping Cart Icon -->
-                <div class="absolute top-4 right-4 w-12 h-12 bg-black/60 backdrop-blur-md rounded-2xl flex items-center justify-center border border-green-500/40 transform group-hover:scale-110 transition-transform duration-500">
-                  <svg class="w-6 h-6 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4m0 0L7 13m0 0l-1.1 5M7 13l-1.1 5m0 0h9.2M16 18a2 2 0 11-4 0 2 2 0 014 0zM9 18a2 2 0 11-4 0 2 2 0 014 0z"></path>
-                  </svg>
-                </div>
-                
-                <!-- Project Number -->
-                <div class="absolute bottom-4 left-4 w-14 h-14 bg-black/60 backdrop-blur-md rounded-full flex items-center justify-center border border-green-500/30">
-                  <span class="text-green-400 font-bold">01</span>
-                </div>
-              </div>
-              
-              <!-- Content Section -->
-              <div class="p-6 relative transform group-hover:translate-y-1 transition-transform duration-300">
-                <!-- E-commerce Category -->
-                <div class="flex items-center gap-3 mb-4">
-                  <div class="flex items-center gap-2 bg-gradient-to-r from-green-500/20 to-emerald-500/20 px-3 py-1.5 rounded-2xl border border-green-500/30">
-                    <svg class="w-3 h-3 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                      <path fill-rule="evenodd" d="M10 2L3 7v11a2 2 0 002 2h10a2 2 0 002-2V7l-7-5zM10 18V7l5 4v7H10z" clip-rule="evenodd"></path>
-                    </svg>
-                    <span class="text-xs text-green-400 font-semibold">E-COMMERCE</span>
-                  </div>
-                  <div class="px-2 py-1 bg-gray-800/50 rounded-lg">
-                    <span class="text-xs text-gray-400">PLATFORM</span>
-                  </div>
-                </div>
-                
-                <h3 class="text-xl font-bold text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-green-400 group-hover:to-emerald-500 transition-all duration-500">ShopCart</h3>
-                <p class="text-sm text-gray-400 mb-4">Complete E-commerce Platform Solution</p>
-                
-                <!-- Tech Stack -->
-                <div class="flex gap-2 mb-6">
-                  <span class="tech-tag">React</span>
-                  <span class="tech-tag">Node.js</span>
-                  <span class="tech-tag">MongoDB</span>
-                </div>
-                
-                <!-- Enhanced CTA -->
-                <a href="shopcart.php" class="group/btn relative inline-flex items-center gap-2 bg-gradient-to-r from-green-500/10 to-emerald-500/10 hover:from-green-500 hover:to-emerald-500 text-green-400 hover:text-white px-6 py-3 rounded-2xl border border-green-500/30 hover:border-transparent font-semibold transition-all duration-300 overflow-hidden">
-                  <svg class="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
-                  </svg>
-                  <span class="relative z-10">View Project</span>
-                  <div class="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-
-        <!--9-ELEVEN WRAP ERP-->
-        <div class="portfolio-card group relative overflow-hidden" style="transition-delay: 200ms;">
-          <!-- Hexagonal Background Pattern -->
-          <div class="absolute inset-0 bg-black rounded-3xl">
-            <div class="absolute inset-0 opacity-20">
-              <div class="absolute top-4 left-4 w-8 h-8 border border-primary/30 transform rotate-45"></div>
-              <div class="absolute top-12 right-8 w-6 h-6 border border-pink-500/20 transform rotate-12"></div>
-              <div class="absolute bottom-8 left-8 w-4 h-4 bg-primary/20 transform rotate-45"></div>
-            </div>
-          </div>
-          
-          <!-- Tilted Card Design -->
-          <div class="relative bg-gradient-to-br from-gray-900/95 via-gray-800/85 to-gray-900/95 backdrop-blur-xl border border-gray-700/40 rounded-3xl transform group-hover:-rotate-1 transition-all duration-700 hover:shadow-2xl hover:shadow-primary/15">
-            <!-- Diagonal Image Layout -->
+      <!-- 3-Card Carousel -->
+      <div class="relative overflow-hidden">
+        <div id="carousel-container" class="flex justify-center items-center gap-8 px-4 py-8">
+          <!-- ShopCart Project -->
+          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
             <div class="relative h-48 overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-pink-500/5"></div>
-              <img src="uploads/images/Dashboard1.png" alt="9-ELEVEN WRAP ERP" class="w-full h-full object-cover transform group-hover:scale-105 group-hover:-rotate-1 transition-all duration-700">
-              
-              <!-- Geometric Overlay -->
-              <div class="absolute inset-0 bg-gradient-to-tr from-black/60 via-transparent to-primary/20"></div>
-              
-              <!-- Animated Corner Element -->
-              <div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-primary/30 to-transparent transform rotate-45 translate-x-10 -translate-y-10 group-hover:translate-x-5 group-hover:-translate-y-5 transition-transform duration-500"></div>
-              
-              <!-- Project Number -->
-              <div class="absolute bottom-4 left-4 w-14 h-14 bg-black/60 backdrop-blur-md rounded-full flex items-center justify-center border border-primary/30">
-                <span class="text-primary font-bold">02</span>
+              <img src="uploads/images/e-commerce1.webp" alt="ShopCart" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+              <div class="absolute bottom-4 left-4">
+                <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium">E-COMMERCE</span>
               </div>
             </div>
-            
-            <!-- Content with Slide Animation -->
-            <div class="p-6 relative transform group-hover:translate-y-1 transition-transform duration-300">
-              <!-- Category with Icon -->
-              <div class="flex items-center gap-3 mb-4">
-                <div class="flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-primary/20 px-3 py-1.5 rounded-2xl border border-blue-500/30">
-                  <div class="w-2 h-2 bg-blue-400 rounded-full animate-pulse"></div>
-                  <span class="text-xs text-blue-400 font-semibold">ENTERPRISE</span>
-                </div>
-                <div class="w-8 h-8 bg-gray-800/50 rounded-lg flex items-center justify-center">
-                  <svg class="w-4 h-4 text-gray-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
-                  </svg>
-                </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">ShopCart</h3>
+              <p class="text-gray-400 mb-4">Complete E-commerce Platform Solution</p>
+              <div class="flex gap-2 mb-4">
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">React</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Node.js</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">MongoDB</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-primary transition-all duration-500">9-ELEVEN WRAP ERP</h3>
-              <p class="text-sm text-gray-400 mb-4">Enterprise Resource Planning System</p>
-              
-              <!-- Tech Stack -->
-              <div class="flex gap-2 mb-6">
-                <span class="tech-tag">Next.js</span>
-                <span class="tech-tag">MongoDB</span>
-              </div>
-              
-              <!-- CTA with Slide Effect -->
-              <a href="erp.php" class="group/btn relative inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-primary/10 hover:from-blue-500 hover:to-primary text-blue-400 hover:text-white px-6 py-3 rounded-2xl border border-blue-500/30 hover:border-transparent font-semibold transition-all duration-300 overflow-hidden">
-                <span class="relative z-10">View Details</span>
-                <svg class="w-4 h-4 relative z-10 transition-transform duration-300 group-hover/btn:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+              <a href="shopcart.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
+                View Project
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
-                <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-primary transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
               </a>
             </div>
           </div>
-        </div>
 
-        <!--Jungle Adventure-->
-        <div class="portfolio-card group relative overflow-hidden" style="transition-delay: 300ms;">
-          <!-- Organic Flowing Background -->
-          <div class="absolute inset-0 bg-black rounded-3xl">
-            <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 via-emerald-500/5 to-primary/10 opacity-0 group-hover:opacity-100 transition-all duration-1000"></div>
-            <!-- Floating Organic Shapes -->
-            <div class="absolute top-8 right-8 w-16 h-16 bg-gradient-to-br from-green-400/20 to-emerald-500/10 rounded-full blur-xl transform group-hover:scale-150 group-hover:translate-x-4 group-hover:-translate-y-4 transition-all duration-1000"></div>
-            <div class="absolute bottom-12 left-6 w-12 h-12 bg-gradient-to-tr from-primary/15 to-green-400/10 rounded-full blur-lg transform group-hover:scale-125 group-hover:-translate-x-2 group-hover:translate-y-2 transition-all duration-700"></div>
-          </div>
-          
-          <!-- Card with Curved Design -->
-          <div class="relative bg-gradient-to-br from-gray-900/95 via-gray-800/90 to-gray-900/95 backdrop-blur-xl border border-gray-700/40 rounded-3xl overflow-hidden group-hover:border-green-500/40 transition-all duration-500 hover:shadow-2xl hover:shadow-green-500/10">
-            <!-- Curved Image Section -->
+          <!-- 9-ELEVEN WRAP ERP -->
+          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
             <div class="relative h-48 overflow-hidden">
-              <div class="absolute inset-0 bg-gradient-to-br from-green-500/20 via-transparent to-emerald-500/10"></div>
-              <img src="uploads/images/jungle-game.webp" alt="Jungle Adventure" class="w-full h-full object-cover transform group-hover:scale-110 transition-all duration-700">
-              
-              <!-- Curved Overlay -->
-              <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-              <div class="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-gray-900 to-transparent transform group-hover:translate-y-2 transition-transform duration-500"></div>
-              
-              <!-- Gaming Elements -->
-              <div class="absolute top-4 left-4 flex gap-2">
-                <div class="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-                <div class="w-3 h-3 bg-emerald-400 rounded-full animate-pulse" style="animation-delay: 0.3s;"></div>
-                <div class="w-3 h-3 bg-primary rounded-full animate-pulse" style="animation-delay: 0.6s;"></div>
-              </div>
-              
-              <!-- Project Number with Game Controller Icon -->
-              <div class="absolute top-4 right-4 w-12 h-12 bg-black/50 backdrop-blur-md rounded-2xl flex items-center justify-center border border-green-500/30 transform group-hover:rotate-12 transition-transform duration-500">
-                <svg class="w-6 h-6 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10 2a8 8 0 100 16 8 8 0 000-16zM8 7a1 1 0 00-2 0v2a1 1 0 002 0V7zM12 7a1 1 0 10-2 0v2a1 1 0 102 0V7z" clip-rule="evenodd"></path>
-                </svg>
+              <img src="uploads/images/Dashboard1.png" alt="9-ELEVEN WRAP ERP" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+              <div class="absolute bottom-4 left-4">
+                <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">ENTERPRISE</span>
               </div>
             </div>
-            
-            <!-- Content with Bounce Animation -->
-            <div class="p-6 relative transform group-hover:-translate-y-1 transition-transform duration-300">
-              <!-- Gaming Category -->
-              <div class="flex items-center gap-3 mb-4">
-                <div class="flex items-center gap-2 bg-gradient-to-r from-green-500/20 to-emerald-500/20 px-3 py-1.5 rounded-2xl border border-green-500/30">
-                  <svg class="w-3 h-3 text-green-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                  </svg>
-                  <span class="text-xs text-green-400 font-semibold">GAMING</span>
-                </div>
-                <div class="px-2 py-1 bg-gray-800/50 rounded-lg">
-                  <span class="text-xs text-gray-400">MOBILE</span>
-                </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">9-ELEVEN WRAP ERP</h3>
+              <p class="text-gray-400 mb-4">Enterprise Resource Planning System</p>
+              <div class="flex gap-2 mb-4">
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Next.js</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">MongoDB</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-green-400 group-hover:to-emerald-500 transition-all duration-500">Jungle Adventure</h3>
-              <p class="text-sm text-gray-400 mb-4">Immersive Mobile Gaming Experience</p>
-              
-              <!-- Tech Stack -->
-              <div class="flex gap-2 mb-6">
-                <span class="tech-tag">Unity</span>
-                <span class="tech-tag">C#</span>
-                <span class="tech-tag">Android</span>
-              </div>
-              
-              <!-- Play Button Style CTA -->
-              <a href="JungleAdventure.php" class="group/btn relative inline-flex items-center gap-2 bg-gradient-to-r from-green-500/10 to-emerald-500/10 hover:from-green-500 hover:to-emerald-500 text-green-400 hover:text-white px-6 py-3 rounded-2xl border border-green-500/30 hover:border-transparent font-semibold transition-all duration-300 overflow-hidden">
-                <svg class="w-4 h-4 relative z-10" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+              <a href="erp.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
+                View Details
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
-                <span class="relative z-10">Play Demo</span>
-                <div class="absolute inset-0 bg-gradient-to-r from-green-500 to-emerald-500 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
               </a>
             </div>
           </div>
-        </div>
 
-        <!--Insurance Case Study-->
-        <div class="portfolio-card group relative overflow-hidden" style="transition-delay: 400ms;">
-          <!-- Professional Grid Background -->
-          <div class="absolute inset-0 bg-black rounded-3xl">
-            <div class="absolute inset-0 opacity-30">
-              <!-- Grid Pattern -->
-              <div class="absolute inset-0" style="background-image: linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px); background-size: 20px 20px;"></div>
+          <!-- Jungle Adventure -->
+          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
+            <div class="relative h-48 overflow-hidden">
+              <img src="uploads/images/jungle-game.webp" alt="Jungle Adventure" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+              <div class="absolute bottom-4 left-4">
+                <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm font-medium">GAMING</span>
+              </div>
             </div>
-            <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-blue-500/5 via-transparent to-indigo-500/10 opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Jungle Adventure</h3>
+              <p class="text-gray-400 mb-4">Immersive Mobile Gaming Experience</p>
+              <div class="flex gap-2 mb-4">
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Unity</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">C#</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Android</span>
+              </div>
+              <a href="JungleAdventure.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
+                Play Demo
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
           </div>
-          
-          <!-- Professional Card Design -->
-          <div class="relative bg-gradient-to-br from-gray-900/98 via-gray-800/95 to-gray-900/98 backdrop-blur-xl border border-gray-700/50 rounded-3xl overflow-hidden group-hover:border-blue-500/50 transition-all duration-500 hover:shadow-2xl hover:shadow-blue-500/10">
-            <!-- Split Layout Image -->
-            <div class="relative h-48 overflow-hidden bg-gradient-to-br from-blue-900/20 to-indigo-900/10">
-              <img src="uploads/images/insurance-web.webp" alt="Insurance Platform" class="w-full h-full object-cover transform group-hover:scale-105 transition-all duration-700">
-              
-              <!-- Professional Overlay -->
-              <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/30 to-transparent"></div>
-              
-              <!-- Data Visualization Elements -->
-              <div class="absolute top-4 left-4 flex flex-col gap-2">
-                <div class="flex gap-1">
-                  <div class="w-8 h-1 bg-blue-400 rounded-full"></div>
-                  <div class="w-6 h-1 bg-blue-300 rounded-full"></div>
-                  <div class="w-4 h-1 bg-blue-200 rounded-full"></div>
-                </div>
-                <div class="flex gap-1">
-                  <div class="w-6 h-1 bg-indigo-400 rounded-full"></div>
-                  <div class="w-8 h-1 bg-indigo-300 rounded-full"></div>
-                  <div class="w-3 h-1 bg-indigo-200 rounded-full"></div>
-                </div>
-              </div>
-              
-              <!-- Security Badge -->
-              <div class="absolute top-4 right-4 w-12 h-12 bg-black/60 backdrop-blur-md rounded-xl flex items-center justify-center border border-blue-500/40 transform group-hover:scale-110 transition-transform duration-500">
-                <svg class="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
-                </svg>
+
+          <!-- Insurance Platform -->
+          <div class="portfolio-card bg-gray-900/50 rounded-2xl overflow-hidden border border-gray-700/50 transition-all duration-500">
+            <div class="relative h-48 overflow-hidden">
+              <img src="uploads/images/insurance-web.webp" alt="Insurance Platform" class="w-full h-full object-cover">
+              <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent"></div>
+              <div class="absolute bottom-4 left-4">
+                <span class="bg-blue-500/20 text-blue-400 px-3 py-1 rounded-full text-sm font-medium">FINTECH</span>
               </div>
             </div>
-            
-            <!-- Content with Professional Styling -->
-            <div class="p-6 relative">
-              <!-- Professional Category -->
-              <div class="flex items-center gap-3 mb-4">
-                <div class="flex items-center gap-2 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 px-3 py-1.5 rounded-2xl border border-blue-500/30">
-                  <svg class="w-3 h-3 text-blue-400" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M4 4a2 2 0 00-2 2v8a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2H4zm0 2h12v8H4V6z" clip-rule="evenodd"></path>
-                  </svg>
-                  <span class="text-xs text-blue-400 font-semibold">FINTECH</span>
-                </div>
-                <div class="px-2 py-1 bg-gray-800/50 rounded-lg">
-                  <span class="text-xs text-gray-400">PLATFORM</span>
-                </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold text-white mb-2">Insurance Platform</h3>
+              <p class="text-gray-400 mb-4">Digital Insurance Management System</p>
+              <div class="flex gap-2 mb-4">
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Laravel</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">MySQL</span>
+                <span class="text-xs bg-gray-800 text-gray-300 px-2 py-1 rounded">Vue.js</span>
               </div>
-              
-              <h3 class="text-xl font-bold text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-blue-400 group-hover:to-indigo-500 transition-all duration-500">Insurance Platform</h3>
-              <p class="text-sm text-gray-400 mb-4">Digital Insurance Management System</p>
-              
-              <!-- Tech Stack -->
-              <div class="flex gap-2 mb-6">
-                <span class="tech-tag">Laravel</span>
-                <span class="tech-tag">MySQL</span>
-                <span class="tech-tag">Vue.js</span>
-              </div>
-              
-              <!-- Professional CTA -->
-              <a href="Insurancecase.php" class="group/btn relative inline-flex items-center gap-2 bg-gradient-to-r from-blue-500/10 to-indigo-500/10 hover:from-blue-500 hover:to-indigo-500 text-blue-400 hover:text-white px-6 py-3 rounded-2xl border border-blue-500/30 hover:border-transparent font-semibold transition-all duration-300 overflow-hidden">
-                <svg class="w-4 h-4 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+              <a href="Insurancecase.php" class="inline-flex items-center gap-2 text-primary hover:text-white font-medium transition-colors">
+                Case Study
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
                 </svg>
-                <span class="relative z-10">Case Study</span>
-                <div class="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-500 transform scale-x-0 group-hover/btn:scale-x-100 transition-transform duration-300 origin-left"></div>
               </a>
             </div>
           </div>
         </div>
-        </div>
-      </div>
-      
-      <!-- Mobile scroll indicators -->
-      <div class="flex md:hidden justify-center mt-6 gap-2">
-        <div class="w-2 h-2 bg-primary rounded-full"></div>
-        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
-        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
-        <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+        
+        <!-- Navigation Arrows -->
+        <button id="prev-btn" class="absolute left-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-primary rounded-full flex items-center justify-center transition-all duration-300 z-20">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+        </button>
+        <button id="next-btn" class="absolute right-4 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-black/50 hover:bg-primary rounded-full flex items-center justify-center transition-all duration-300 z-20">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
       </div>
     </div>
   </section>
 
-  <style>
-    /* Modern Scrollbar Styles */
-    #portfolio-container {
-      scrollbar-width: thin;
-      scrollbar-color: #E11D48 #1F2937;
-    }
-    
-    #portfolio-container::-webkit-scrollbar {
-      height: 8px;
-    }
-    
-    #portfolio-container::-webkit-scrollbar-track {
-      background: linear-gradient(90deg, #1F2937, #374151);
-      border-radius: 10px;
-      margin: 0 20px;
-    }
-    
-    #portfolio-container::-webkit-scrollbar-thumb {
-      background: linear-gradient(90deg, #E11D48, #F472B6);
-      border-radius: 10px;
-      border: 1px solid #374151;
-    }
-    
-    #portfolio-container::-webkit-scrollbar-thumb:hover {
-      background: linear-gradient(90deg, #DC2626, #E11D48);
-      box-shadow: 0 0 10px rgba(225, 29, 72, 0.5);
-    }
-    
-    .scrollbar-hide {
-      -ms-overflow-style: none;
-      scrollbar-width: none;
-    }
-    .scrollbar-hide::-webkit-scrollbar {
-      display: none;
-    }
-    
-    .portfolio-card {
-      min-width: 380px;
-      max-width: 380px;
-      flex-shrink: 0;
-    }
-    
-    .tech-tag {
-      @apply text-xs bg-gray-800/60 text-gray-300 px-3 py-1.5 rounded-xl border border-gray-700/50 backdrop-blur-sm hover:border-primary/40 hover:text-primary transition-all duration-300 cursor-default;
-    }
-    
-    .tech-tag:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 12px rgba(225, 29, 72, 0.2);
-    }
-    
-    @media (max-width: 768px) {
-      .portfolio-card {
-        min-width: 300px;
-        max-width: 300px;
-      }
-    }
-    
-    @media (max-width: 480px) {
-      .portfolio-card {
-        min-width: 280px;
-        max-width: 280px;
-      }
-    }
-  </style>
-  
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const container = document.getElementById('portfolio-container');
-      const scrollLeftBtn = document.getElementById('scroll-left');
-      const scrollRightBtn = document.getElementById('scroll-right');
-      
-      if (scrollLeftBtn && scrollRightBtn && container) {
-        scrollLeftBtn.addEventListener('click', () => {
-          container.scrollBy({ left: -420, behavior: 'smooth' });
-        });
-        
-        scrollRightBtn.addEventListener('click', () => {
-          container.scrollBy({ left: 420, behavior: 'smooth' });
-        });
-        
-        // Auto-hide scrollbar on mobile
-        if (window.innerWidth < 768) {
-          container.style.scrollbarWidth = 'none';
-          container.style.msOverflowStyle = 'none';
-        }
-      }
-    });
-  </script>
+
 
  
 
