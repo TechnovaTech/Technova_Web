@@ -246,6 +246,131 @@
     </div>
   </section>
 
+  <!-- Property Showcase Section -->
+  <section class="py-20 sm:py-28 bg-gradient-to-br from-gray-900 via-black to-gray-800 relative overflow-hidden">
+    <div class="container mx-auto px-4 sm:px-6 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <!-- Left - Laptop Mockup -->
+        <div class="relative">
+          <div class="relative transform hover:scale-105 transition-transform duration-700">
+            <div class="relative w-full max-w-lg mx-auto">
+              <!-- Laptop Frame -->
+              <div class="bg-gradient-to-br from-gray-700 to-gray-900 rounded-t-3xl p-4 shadow-2xl">
+                <div class="bg-white rounded-2xl overflow-hidden shadow-inner">
+                  <!-- Browser Header -->
+                  <div class="bg-gray-100 h-8 flex items-center px-4 gap-2">
+                    <div class="flex gap-1.5">
+                      <div class="w-3 h-3 bg-red-400 rounded-full"></div>
+                      <div class="w-3 h-3 bg-yellow-400 rounded-full"></div>
+                      <div class="w-3 h-3 bg-green-400 rounded-full"></div>
+                    </div>
+                    <div class="flex-1 bg-white h-5 rounded-full mx-4 flex items-center px-3">
+                      <div class="text-xs text-gray-400">property.com</div>
+                    </div>
+                  </div>
+                  
+                  <!-- Website Content -->
+                  <div class="p-6 bg-gradient-to-br from-teal-50 to-blue-50">
+                    <!-- Header -->
+                    <div class="flex items-center justify-between mb-6">
+                      <div class="flex items-center gap-2">
+                        <div class="w-8 h-8 bg-teal-500 rounded-lg flex items-center justify-center">
+                          <div class="w-4 h-4 bg-white rounded-sm"></div>
+                        </div>
+                        <span class="font-bold text-gray-800">Property</span>
+                      </div>
+                      <div class="flex gap-4 text-xs text-gray-600">
+                        <span>Landlords</span>
+                        <span>Tenants</span>
+                      </div>
+                    </div>
+                    
+                    <!-- Main Content -->
+                    <div class="grid grid-cols-2 gap-4">
+                      <!-- Left Content -->
+                      <div>
+                        <h2 class="text-lg font-bold text-gray-800 mb-2">Happy tenants,<br>hassle-free.</h2>
+                        <p class="text-xs text-gray-600 mb-4">Advertise your property, choose the best tenants, always get your rent on time - all in one place.</p>
+                        <div class="flex gap-2">
+                          <button class="bg-teal-500 text-white px-3 py-1.5 rounded-lg text-xs font-medium">View my property</button>
+                          <button class="border border-gray-300 px-3 py-1.5 rounded-lg text-xs">Talk to an expert</button>
+                        </div>
+                      </div>
+                      
+                      <!-- Right Content - Property Image -->
+                      <div class="relative">
+                        <div class="bg-gradient-to-br from-green-400 to-blue-500 rounded-xl h-24 relative overflow-hidden">
+                          <!-- House illustration -->
+                          <div class="absolute bottom-0 right-2 w-16 h-16 bg-yellow-200 rounded-t-lg">
+                            <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-8 border-r-8 border-b-6 border-transparent border-b-red-600"></div>
+                            <div class="absolute bottom-2 left-2 w-3 h-4 bg-blue-600 rounded-sm"></div>
+                            <div class="absolute bottom-2 right-2 w-3 h-3 bg-yellow-400 rounded-sm"></div>
+                          </div>
+                        </div>
+                        
+                        <!-- Property Card -->
+                        <div class="absolute -bottom-2 -right-2 bg-white rounded-lg p-2 shadow-lg border">
+                          <div class="text-xs font-medium">Next steps</div>
+                          <div class="flex items-center gap-1 mt-1">
+                            <div class="flex -space-x-1">
+                              <div class="w-4 h-4 bg-blue-400 rounded-full border border-white"></div>
+                              <div class="w-4 h-4 bg-green-400 rounded-full border border-white"></div>
+                              <div class="w-4 h-4 bg-yellow-400 rounded-full border border-white"></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Laptop Base -->
+              <div class="bg-gradient-to-b from-gray-600 to-gray-800 h-6 rounded-b-3xl shadow-2xl">
+                <div class="flex justify-center pt-1">
+                  <div class="w-20 h-1 bg-gray-500 rounded-full"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Right - Content -->
+        <div class="text-left">
+          <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-8">
+            PROPERTY
+          </h2>
+          
+          <!-- Tech Stack Tags -->
+          <div class="flex flex-wrap gap-3 mb-8">
+            <span class="px-4 py-2 bg-transparent border border-green-500 text-green-400 rounded-full text-sm font-medium hover:bg-green-500 hover:text-white transition-all duration-300">
+              Next.Js
+            </span>
+            <span class="px-4 py-2 bg-transparent border border-blue-500 text-blue-400 rounded-full text-sm font-medium hover:bg-blue-500 hover:text-white transition-all duration-300">
+              TypeScript
+            </span>
+            <span class="px-4 py-2 bg-transparent border border-cyan-500 text-cyan-400 rounded-full text-sm font-medium hover:bg-cyan-500 hover:text-white transition-all duration-300">
+              Tailwind CSS
+            </span>
+          </div>
+          
+          <!-- Description -->
+          <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+            Property is a leading online platform connecting landlords with tenants across the World. With a focus on simplicity, efficiency, and transparency, the platform facilitates property rental transactions, offering landlords various services from advertising their properties to finding suitable tenants.
+          </p>
+          
+          <!-- CTA Button -->
+          <a href="#" class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-2xl font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            View Details
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Portfolio Section -->
 <section id="portfolio" class="pt-24 sm:pt-32 py-20 sm:py-28 relative overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">
     <!-- Background Elements -->
