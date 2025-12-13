@@ -224,6 +224,19 @@
             </div>
           </div>
         </div>
+
+        <div class="portfolio-item reveal" style="transition-delay: 700ms;">
+          <img src="uploads/images/f1.png" alt="First Trimester Care" class="w-full h-full object-fill aspect-[4/3]">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content text-center p-4">
+              <h3 class="text-xl font-bold text-white mb-2">Your First Trimester Prenatal Care</h3>
+              <p class="text-white/80 mb-4">Essential care for your pregnancy journey</p>
+              <a href="trimester_detail.php" class="btn">
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
   </section>
