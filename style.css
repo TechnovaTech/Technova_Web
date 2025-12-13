@@ -9,7 +9,31 @@
 
     html {
       scroll-behavior: smooth;
-      scroll-padding-top: 80px;
+      scroll-padding-top: 0px;
+    }
+
+    /* Custom Scrollbar Styles */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #1a1a1a;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--primary);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--primary-hover);
+    }
+
+    /* Firefox Scrollbar */
+    * {
+      scrollbar-width: thin;
+      scrollbar-color: var(--primary) #1a1a1a;
     }
 
     body {
@@ -17,6 +41,12 @@
       overflow-x: hidden;
       background-color: black;
       color: white;
+      font-weight: 400; /* Regular font weight */
+    }
+
+    /* Ensure all text is regular weight by default */
+    * {
+      font-weight: inherit;
     }
 
     /* Preloader */
