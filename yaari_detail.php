@@ -139,7 +139,10 @@
             <!-- Icon -->
             <div class="mb-4">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
-                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" stroke="#E11D48" stroke-width="2" stroke-linejoin="round"/>
+                <path d="M20 2H4C2.9 2 2 2.9 2 4V16C2 17.1 2.9 18 4 18H6L10 22L14 18H20C21.1 18 22 17.1 22 16V4C22 2.9 21.1 2 20 2Z" fill="#E11D48"/>
+                <circle cx="8" cy="10" r="1" fill="white"/>
+                <circle cx="12" cy="10" r="1" fill="white"/>
+                <circle cx="16" cy="10" r="1" fill="white"/>
               </svg>
             </div>
             

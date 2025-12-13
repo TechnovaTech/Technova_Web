@@ -143,7 +143,7 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 200ms;">
-          <img src="uploads/images/r1.PNG" alt="ERP System" class="w-full h-full object-cover aspect-[4/3]">
+          <img src="uploads/images/r1.PNG" alt="ERP System" class="w-full h-full object-fill aspect-[4/3]">
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">Retailians ERP System</h3>
@@ -156,7 +156,7 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 300ms;">
-          <img src="uploads/images/r2.PNG" alt="Commonwoods" class="w-full h-full object-cover aspect-[4/3]">
+          <img src="uploads/images/r2.PNG" alt="Commonwoods" class="w-full h-full object-fill aspect-[4/3]">
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">9-Eleven Wrap ERP</h3>
@@ -206,6 +206,19 @@
               <h3 class="text-xl font-bold text-white mb-2">Asiaze News App</h3>
               <p class="text-white/80 mb-4">Stay informed with latest news and updates</p>
               <a href="asiaze_detail.php" class="btn">
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item reveal" style="transition-delay: 600ms;">
+          <img src="uploads/images/w6.PNG" alt="WalkIn FirstPregnancy" class="w-full h-full object-fill aspect-[4/3]">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content text-center p-4">
+              <h3 class="text-xl font-bold text-white mb-2">WalkIn FirstPregnancy</h3>
+              <p class="text-white/80 mb-4">Comprehensive pregnancy care and guidance platform</p>
+              <a href="walkin_firstpregnancy_detail.php" class="btn">
                 View Project
               </a>
             </div>

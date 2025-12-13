@@ -12,8 +12,8 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>9-Eleven Wrap ERP - Project Detail</title>
-  <meta name="description" content="Detailed view of our 9-Eleven Wrap ERP project - Technova Technologies">
+  <title>WalkIn FirstPregnancy - Project Detail</title>
+  <meta name="description" content="Detailed view of our portfolio project - Technova Technologies">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -48,6 +48,7 @@
       font-family: "Inter", sans-serif;
       background-color: black;
       color: white;
+      overflow-x: hidden;
     }
     
     .btn {
@@ -139,17 +140,17 @@
             <!-- Icon -->
             <div class="mb-4">
               <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto">
-                <path d="M3 7V17C3 18.1046 3.89543 19 5 19H19C20.1046 19 21 18.1046 21 17V7C21 5.89543 20.1046 5 19 5H5C3.89543 5 3 5.89543 3 7Z" stroke="#E11D48" stroke-width="2"/>
-                <path d="M8 9L16 9" stroke="#E11D48" stroke-width="2" stroke-linecap="round"/>
-                <path d="M8 13L12 13" stroke="#E11D48" stroke-width="2" stroke-linecap="round"/>
+                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" fill="#E11D48"/>
+                <path d="M12 6c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="white"/>
+                <path d="M10 8h1v1h1V8h1v1h-1v1h-1V9h-1V8z" fill="#E11D48"/>
               </svg>
             </div>
             
             <!-- Heading -->
-            <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">9-Eleven Wrap ERP</h1>
+            <h1 class="text-4xl sm:text-5xl font-bold text-white mb-4">WalkIn FirstPregnancy</h1>
             
             <!-- Subtitle -->
-            <h2 class="text-2xl sm:text-3xl text-red-600 mb-6">Comprehensive Wrapping Business Management</h2>
+            <h2 class="text-2xl sm:text-3xl text-red-600 mb-6">Comprehensive Pregnancy Care Platform</h2>
             
             <!-- Divider Line -->
             <div class="w-100 mx-auto mb-4" style="height: 2px; background-color: #E11D48; max-width: 800px;"></div>
@@ -157,7 +158,7 @@
             <!-- Description -->
             <div class="mx-auto" style="max-width: 800px;">
               <p class="text-center text-lg text-gray-300 leading-relaxed mb-0">
-                Advanced ERP solution specifically designed for wrapping and packaging businesses, streamlining operations from inventory management to customer delivery.
+                A comprehensive digital platform providing expectant mothers with personalized pregnancy guidance, health tracking, and expert medical support throughout their journey.
               </p>
             </div>
           </div>
@@ -169,13 +170,13 @@
     <section class="py-16" style="background-color: black;">
       <div class="container mx-auto px-4">
         <h2 class="text-center text-white text-4xl font-bold mb-8">Project Gallery</h2>
-        <div class="overflow-hidden">
-          <div class="flex animate-scroll" style="animation: scroll 15s linear infinite;">
-            <img src="uploads/images/Dashboard1.png" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Dashboard">
-            <img src="uploads/images/Dashboard2.jpeg" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Reports">
-            <img src="uploads/images/Dashboard3.png" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Analytics">
-            <img src="uploads/images/Dashboard4.png" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Management">
-            <img src="uploads/images/Dashboard5.png" class="w-80 h-60 object-cover rounded-lg mx-4 flex-shrink-0" alt="Interface">
+        <div class="flex flex-col items-center">
+          <div class="relative w-full h-80 sm:h-96 md:h-[34rem] mb-6 overflow-hidden">
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="flex items-center justify-center h-full">
+                <img src="uploads/images/w3.png" class="w-80 h-96 sm:w-96 sm:h-[30rem] md:w-[30rem] md:h-[32rem] object-contain rounded-lg mx-4 opacity-100 blur-0 scale-110 z-10" alt="WalkIn FirstPregnancy">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -185,51 +186,23 @@
     <section class="pb-16" style="background-color: black;">
       <div class="container mx-auto px-4">
         <h2 class="text-center text-white text-4xl font-bold mb-8">The Challenges</h2>
-        
         <div class="max-w-6xl mx-auto">
-          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            <!-- Challenge 1 -->
-            <div class="group relative">
-              <div class="absolute inset-0 bg-gradient-to-r from-red-600/20 to-red-400/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-              <div class="relative bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl border border-red-500/30 hover:border-red-400/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div>
-                  <h3 class="text-xl font-bold text-red-600 mb-3">Complex Inventory Management</h3>
-                  <p class="text-gray-300 leading-relaxed">Managing diverse wrapping materials, sizes, and quantities while tracking real-time stock levels across multiple locations.</p>
-                </div>
-              </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
+              <h3 class="text-xl font-bold text-red-600 mb-4">Medical Accuracy</h3>
+              <p class="text-gray-300">Ensuring all medical information and guidance provided is accurate, up-to-date, and approved by healthcare professionals.</p>
             </div>
-            
-            <!-- Challenge 2 -->
-            <div class="group relative">
-              <div class="absolute inset-0 bg-gradient-to-r from-red-600/20 to-red-400/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-              <div class="relative bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl border border-red-500/30 hover:border-red-400/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div>
-                  <h3 class="text-xl font-bold text-red-600 mb-3">Order Processing Efficiency</h3>
-                  <p class="text-gray-300 leading-relaxed">Streamlining order workflows from customer requests to production scheduling and delivery coordination.</p>
-                </div>
-              </div>
+            <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
+              <h3 class="text-xl font-bold text-red-600 mb-4">Personalization</h3>
+              <p class="text-gray-300">Creating personalized experiences based on individual pregnancy stages, health conditions, and preferences.</p>
             </div>
-            
-            <!-- Challenge 3 -->
-            <div class="group relative">
-              <div class="absolute inset-0 bg-gradient-to-r from-red-600/20 to-red-400/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-              <div class="relative bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl border border-red-500/30 hover:border-red-400/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div>
-                  <h3 class="text-xl font-bold text-red-600 mb-3">Quality Control Standards</h3>
-                  <p class="text-gray-300 leading-relaxed">Implementing consistent quality checks and maintaining standards across different wrapping processes and materials.</p>
-                </div>
-              </div>
+            <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
+              <h3 class="text-xl font-bold text-red-600 mb-4">Data Privacy</h3>
+              <p class="text-gray-300">Maintaining strict privacy and security standards for sensitive health and personal information.</p>
             </div>
-            
-            <!-- Challenge 4 -->
-            <div class="group relative">
-              <div class="absolute inset-0 bg-gradient-to-r from-red-600/20 to-red-400/20 rounded-2xl blur-xl group-hover:blur-2xl transition-all duration-300"></div>
-              <div class="relative bg-gray-900/80 backdrop-blur-sm p-8 rounded-2xl border border-red-500/30 hover:border-red-400/50 transition-all duration-300 hover:transform hover:scale-105">
-                <div>
-                  <h3 class="text-xl font-bold text-red-600 mb-3">Customer Relationship Management</h3>
-                  <p class="text-gray-300 leading-relaxed">Managing customer preferences, order history, and maintaining long-term business relationships effectively.</p>
-                </div>
-              </div>
+            <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
+              <h3 class="text-xl font-bold text-red-600 mb-4">User Engagement</h3>
+              <p class="text-gray-300">Designing an intuitive interface that keeps expectant mothers engaged throughout their pregnancy journey.</p>
             </div>
           </div>
         </div>
@@ -265,6 +238,17 @@
               <p class="text-white font-medium">Next.js</p>
             </div>
             
+            <!-- Platform -->
+            <div class="text-center">
+              <h3 class="text-lg font-semibold mb-6" style="color: #E11D48;">Platform</h3>
+              <div class="bg-white rounded-2xl p-6 w-20 h-20 mx-auto flex items-center justify-center mb-3">
+                <svg class="w-10 h-10 text-blue-500" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                </svg>
+              </div>
+              <p class="text-white font-medium">Web</p>
+            </div>
+            
             <!-- Database -->
             <div class="text-center">
               <h3 class="text-lg font-semibold mb-6" style="color: #E11D48;">Database</h3>
@@ -274,17 +258,6 @@
                 </svg>
               </div>
               <p class="text-white font-medium">MongoDB</p>
-            </div>
-            
-            <!-- Cloud -->
-            <div class="text-center">
-              <h3 class="text-lg font-semibold mb-6" style="color: #E11D48;">Cloud</h3>
-              <div class="bg-white rounded-2xl p-6 w-20 h-20 mx-auto flex items-center justify-center mb-3">
-                <svg class="w-10 h-10 text-orange-500" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96z"/>
-                </svg>
-              </div>
-              <p class="text-white font-medium">AWS</p>
             </div>
           </div>
         </div>
@@ -298,20 +271,20 @@
         <div class="max-w-6xl mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
-              <h3 class="text-xl font-bold mb-4 text-red-600">Inventory Automation</h3>
-              <p class="text-gray-300">Automated inventory tracking with real-time updates, low-stock alerts, and predictive ordering for wrapping materials.</p>
+              <h3 class="text-xl font-bold mb-4 text-red-600">Personalized Tracking</h3>
+              <p class="text-gray-300">Advanced pregnancy tracking with personalized milestones, health monitoring, and customized recommendations based on individual needs.</p>
             </div>
             <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
-              <h3 class="text-xl font-bold mb-4 text-red-600">Order Management System</h3>
-              <p class="text-gray-300">Streamlined order processing from customer request to delivery with automated scheduling and progress tracking.</p>
+              <h3 class="text-xl font-bold mb-4 text-red-600">Expert Guidance</h3>
+              <p class="text-gray-300">Access to certified healthcare professionals, nutritionists, and pregnancy experts for real-time consultation and support.</p>
             </div>
             <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
-              <h3 class="text-xl font-bold mb-4 text-red-600">Quality Assurance Module</h3>
-              <p class="text-gray-300">Integrated quality control checkpoints with digital documentation and compliance reporting features.</p>
+              <h3 class="text-xl font-bold mb-4 text-red-600">Community Support</h3>
+              <p class="text-gray-300">Connect with other expectant mothers, share experiences, and build a supportive community throughout the pregnancy journey.</p>
             </div>
             <div class="bg-gray-900/50 p-6 rounded-lg border border-red-500/20">
-              <h3 class="text-xl font-bold mb-4 text-red-600">Customer Portal</h3>
-              <p class="text-gray-300">Dedicated customer interface for order tracking, history viewing, and direct communication with the business.</p>
+              <h3 class="text-xl font-bold mb-4 text-red-600">Health Monitoring</h3>
+              <p class="text-gray-300">Comprehensive health tracking tools including weight monitoring, appointment reminders, and medication schedules.</p>
             </div>
           </div>
         </div>
@@ -416,16 +389,6 @@
     document.getElementById('mobile-menu-button').addEventListener('click', function() {
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
-
-    // Scroll animation for gallery
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes scroll {
-        0% { transform: translateX(0); }
-        100% { transform: translateX(-50%); }
-      }
-    `;
-    document.head.appendChild(style);
   </script>
 </body>
 </html>
