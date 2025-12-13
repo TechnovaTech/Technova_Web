@@ -141,6 +141,127 @@
     .animate-banner-scroll {
       animation: banner-scroll 60s linear infinite;
     }
+    
+    .star-dots {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    
+    .star {
+      position: absolute;
+      background: white;
+      clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+      animation: twinkle 3s ease-in-out infinite alternate;
+    }
+    
+    .star:nth-child(1) { width: 8px; height: 8px; top: 20%; left: 10%; animation-delay: 0s; }
+    .star:nth-child(2) { width: 6px; height: 6px; top: 30%; left: 80%; animation-delay: 0.5s; }
+    .star:nth-child(3) { width: 10px; height: 10px; top: 60%; left: 20%; animation-delay: 1s; }
+    .star:nth-child(4) { width: 4px; height: 4px; top: 80%; left: 70%; animation-delay: 1.5s; }
+    .star:nth-child(5) { width: 7px; height: 7px; top: 15%; left: 60%; animation-delay: 2s; }
+    .star:nth-child(6) { width: 5px; height: 5px; top: 45%; left: 90%; animation-delay: 2.5s; }
+    .star:nth-child(7) { width: 9px; height: 9px; top: 70%; left: 40%; animation-delay: 0.8s; }
+    .star:nth-child(8) { width: 6px; height: 6px; top: 25%; left: 30%; animation-delay: 1.2s; }
+    .star:nth-child(9) { width: 8px; height: 8px; top: 55%; left: 75%; animation-delay: 1.8s; }
+    .star:nth-child(10) { width: 4px; height: 4px; top: 85%; left: 15%; animation-delay: 0.3s; }
+    .star:nth-child(11) { width: 3px; height: 3px; top: 12%; left: 45%; animation-delay: 0.7s; }
+    .star:nth-child(12) { width: 5px; height: 5px; top: 35%; left: 65%; animation-delay: 1.3s; }
+    .star:nth-child(13) { width: 7px; height: 7px; top: 75%; left: 25%; animation-delay: 2.1s; }
+    .star:nth-child(14) { width: 4px; height: 4px; top: 50%; left: 5%; animation-delay: 0.9s; }
+    .star:nth-child(15) { width: 6px; height: 6px; top: 90%; left: 85%; animation-delay: 1.7s; }
+    .star:nth-child(16) { width: 3px; height: 3px; top: 8%; left: 25%; animation-delay: 2.3s; }
+    .star:nth-child(17) { width: 8px; height: 8px; top: 40%; left: 50%; animation-delay: 0.4s; }
+    .star:nth-child(18) { width: 5px; height: 5px; top: 65%; left: 95%; animation-delay: 1.6s; }
+    .star:nth-child(19) { width: 4px; height: 4px; top: 18%; left: 85%; animation-delay: 2.4s; }
+    .star:nth-child(20) { width: 7px; height: 7px; top: 82%; left: 55%; animation-delay: 0.6s; }
+    .star:nth-child(21) { width: 3px; height: 3px; top: 28%; left: 12%; animation-delay: 1.4s; }
+    .star:nth-child(22) { width: 6px; height: 6px; top: 52%; left: 35%; animation-delay: 2.2s; }
+    .star:nth-child(23) { width: 4px; height: 4px; top: 72%; left: 78%; animation-delay: 0.2s; }
+    .star:nth-child(24) { width: 5px; height: 5px; top: 38%; left: 22%; animation-delay: 1.1s; }
+    .star:nth-child(25) { width: 8px; height: 8px; top: 88%; left: 42%; animation-delay: 1.9s; }
+    .star:nth-child(26) { width: 3px; height: 3px; top: 5%; left: 72%; animation-delay: 2.7s; }
+    .star:nth-child(27) { width: 6px; height: 6px; top: 48%; left: 88%; animation-delay: 0.1s; }
+    .star:nth-child(28) { width: 4px; height: 4px; top: 78%; left: 8%; animation-delay: 1.5s; }
+    .star:nth-child(29) { width: 7px; height: 7px; top: 22%; left: 52%; animation-delay: 2.6s; }
+    .star:nth-child(30) { width: 5px; height: 5px; top: 92%; left: 68%; animation-delay: 0.8s; }
+    .star:nth-child(31) { width: 3px; height: 3px; top: 42%; left: 18%; animation-delay: 1.8s; }
+    .star:nth-child(32) { width: 6px; height: 6px; top: 62%; left: 82%; animation-delay: 2.5s; }
+    .star:nth-child(33) { width: 4px; height: 4px; top: 32%; left: 38%; animation-delay: 0.5s; }
+    .star:nth-child(34) { width: 8px; height: 8px; top: 68%; left: 62%; animation-delay: 1.2s; }
+    .star:nth-child(35) { width: 5px; height: 5px; top: 58%; left: 28%; animation-delay: 2.0s; }
+    .star:nth-child(36) { width: 3px; height: 3px; top: 14%; left: 92%; animation-delay: 0.9s; }
+    .star:nth-child(37) { width: 7px; height: 7px; top: 84%; left: 32%; animation-delay: 1.7s; }
+    .star:nth-child(38) { width: 4px; height: 4px; top: 26%; left: 58%; animation-delay: 2.4s; }
+    .star:nth-child(39) { width: 6px; height: 6px; top: 74%; left: 12%; animation-delay: 0.3s; }
+    .star:nth-child(40) { width: 5px; height: 5px; top: 46%; left: 78%; animation-delay: 1.6s; }
+    .star:nth-child(41) { width: 3px; height: 3px; top: 7%; left: 33%; animation-delay: 2.8s; }
+    .star:nth-child(42) { width: 4px; height: 4px; top: 17%; left: 77%; animation-delay: 0.4s; }
+    .star:nth-child(43) { width: 6px; height: 6px; top: 37%; left: 13%; animation-delay: 1.9s; }
+    .star:nth-child(44) { width: 5px; height: 5px; top: 67%; left: 87%; animation-delay: 2.3s; }
+    .star:nth-child(45) { width: 3px; height: 3px; top: 87%; left: 23%; animation-delay: 0.7s; }
+    .star:nth-child(46) { width: 7px; height: 7px; top: 27%; left: 67%; animation-delay: 1.4s; }
+    .star:nth-child(47) { width: 4px; height: 4px; top: 57%; left: 47%; animation-delay: 2.7s; }
+    .star:nth-child(48) { width: 5px; height: 5px; top: 77%; left: 3%; animation-delay: 0.2s; }
+    .star:nth-child(49) { width: 6px; height: 6px; top: 47%; left: 93%; animation-delay: 1.8s; }
+    .star:nth-child(50) { width: 3px; height: 3px; top: 97%; left: 53%; animation-delay: 2.1s; }
+    .star:nth-child(51) { width: 4px; height: 4px; top: 3%; left: 17%; animation-delay: 0.6s; }
+    .star:nth-child(52) { width: 8px; height: 8px; top: 23%; left: 83%; animation-delay: 1.3s; }
+    .star:nth-child(53) { width: 5px; height: 5px; top: 43%; left: 37%; animation-delay: 2.6s; }
+    .star:nth-child(54) { width: 3px; height: 3px; top: 63%; left: 73%; animation-delay: 0.1s; }
+    .star:nth-child(55) { width: 6px; height: 6px; top: 83%; left: 7%; animation-delay: 1.7s; }
+    .star:nth-child(56) { width: 4px; height: 4px; top: 13%; left: 43%; animation-delay: 2.4s; }
+    .star:nth-child(57) { width: 7px; height: 7px; top: 33%; left: 97%; animation-delay: 0.8s; }
+    .star:nth-child(58) { width: 5px; height: 5px; top: 53%; left: 27%; animation-delay: 1.5s; }
+    .star:nth-child(59) { width: 3px; height: 3px; top: 73%; left: 63%; animation-delay: 2.9s; }
+    .star:nth-child(60) { width: 6px; height: 6px; top: 93%; left: 37%; animation-delay: 0.3s; }
+    .star:nth-child(61) { width: 4px; height: 4px; top: 9%; left: 59%; animation-delay: 1.1s; }
+    .star:nth-child(62) { width: 5px; height: 5px; top: 29%; left: 19%; animation-delay: 2.2s; }
+    .star:nth-child(63) { width: 3px; height: 3px; top: 49%; left: 79%; animation-delay: 0.5s; }
+    .star:nth-child(64) { width: 7px; height: 7px; top: 69%; left: 9%; animation-delay: 1.6s; }
+    .star:nth-child(65) { width: 6px; height: 6px; top: 89%; left: 89%; animation-delay: 2.5s; }
+    .star:nth-child(66) { width: 4px; height: 4px; top: 19%; left: 49%; animation-delay: 0.9s; }
+    .star:nth-child(67) { width: 5px; height: 5px; top: 39%; left: 29%; animation-delay: 1.8s; }
+    .star:nth-child(68) { width: 3px; height: 3px; top: 59%; left: 69%; animation-delay: 2.7s; }
+    .star:nth-child(69) { width: 8px; height: 8px; top: 79%; left: 39%; animation-delay: 0.4s; }
+    .star:nth-child(70) { width: 6px; height: 6px; top: 99%; left: 99%; animation-delay: 1.2s; }
+    .star:nth-child(71) { width: 4px; height: 4px; top: 1%; left: 1%; animation-delay: 2.8s; }
+    .star:nth-child(72) { width: 5px; height: 5px; top: 21%; left: 61%; animation-delay: 0.7s; }
+    .star:nth-child(73) { width: 3px; height: 3px; top: 41%; left: 21%; animation-delay: 1.4s; }
+    .star:nth-child(74) { width: 7px; height: 7px; top: 61%; left: 81%; animation-delay: 2.1s; }
+    .star:nth-child(75) { width: 6px; height: 6px; top: 81%; left: 41%; animation-delay: 0.6s; }
+    .star:nth-child(76) { width: 4px; height: 4px; top: 11%; left: 71%; animation-delay: 1.9s; }
+    .star:nth-child(77) { width: 5px; height: 5px; top: 31%; left: 31%; animation-delay: 2.6s; }
+    .star:nth-child(78) { width: 3px; height: 3px; top: 51%; left: 91%; animation-delay: 0.2s; }
+    .star:nth-child(79) { width: 8px; height: 8px; top: 71%; left: 51%; animation-delay: 1.7s; }
+    .star:nth-child(80) { width: 6px; height: 6px; top: 91%; left: 11%; animation-delay: 2.4s; }
+    .star:nth-child(81) { width: 4px; height: 4px; top: 6%; left: 36%; animation-delay: 0.8s; }
+    .star:nth-child(82) { width: 5px; height: 5px; top: 26%; left: 76%; animation-delay: 1.5s; }
+    .star:nth-child(83) { width: 3px; height: 3px; top: 46%; left: 16%; animation-delay: 2.3s; }
+    .star:nth-child(84) { width: 7px; height: 7px; top: 66%; left: 86%; animation-delay: 0.1s; }
+    .star:nth-child(85) { width: 6px; height: 6px; top: 86%; left: 46%; animation-delay: 1.8s; }
+    .star:nth-child(86) { width: 4px; height: 4px; top: 16%; left: 56%; animation-delay: 2.7s; }
+    .star:nth-child(87) { width: 5px; height: 5px; top: 36%; left: 96%; animation-delay: 0.5s; }
+    .star:nth-child(88) { width: 3px; height: 3px; top: 56%; left: 26%; animation-delay: 1.2s; }
+    .star:nth-child(89) { width: 8px; height: 8px; top: 76%; left: 66%; animation-delay: 2.9s; }
+    .star:nth-child(90) { width: 6px; height: 6px; top: 96%; left: 6%; animation-delay: 0.3s; }
+    .star:nth-child(91) { width: 4px; height: 4px; top: 4%; left: 44%; animation-delay: 1.6s; }
+    .star:nth-child(92) { width: 5px; height: 5px; top: 24%; left: 84%; animation-delay: 2.2s; }
+    .star:nth-child(93) { width: 3px; height: 3px; top: 44%; left: 24%; animation-delay: 0.9s; }
+    .star:nth-child(94) { width: 7px; height: 7px; top: 64%; left: 64%; animation-delay: 1.3s; }
+    .star:nth-child(95) { width: 6px; height: 6px; top: 84%; left: 4%; animation-delay: 2.6s; }
+    .star:nth-child(96) { width: 4px; height: 4px; top: 14%; left: 74%; animation-delay: 0.4s; }
+    .star:nth-child(97) { width: 5px; height: 5px; top: 34%; left: 14%; animation-delay: 1.7s; }
+    .star:nth-child(98) { width: 3px; height: 3px; top: 54%; left: 54%; animation-delay: 2.5s; }
+    .star:nth-child(99) { width: 8px; height: 8px; top: 74%; left: 94%; animation-delay: 0.7s; }
+    .star:nth-child(100) { width: 6px; height: 6px; top: 94%; left: 34%; animation-delay: 1.1s; }
+    
+    @keyframes twinkle {
+      0% { opacity: 0.3; transform: scale(1); }
+      50% { opacity: 1; transform: scale(1.2); }
+      100% { opacity: 0.3; transform: scale(1); }
+    }
   </style>
 </head>
 <body>
@@ -285,6 +406,110 @@
       <div class="absolute inset-0 z-0 hero-bg">
         <img src="uploads/images/Homebg1.gif" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-20 slow-gif">
         <img src="uploads/images/Homebg2.png" alt="Background" class="absolute inset-0 w-full h-full object-cover opacity-80" style="mix-blend-mode: screen;">
+        
+        <!-- Star Dots -->
+        <div class="star-dots">
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+          <div class="star"></div>
+        </div>
 
         <div class="absolute inset-0 bg-black/30"></div>
       </div>
