@@ -248,6 +248,9 @@
                 <img src="uploads/images/erp3.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="ERP Analytics">
                 <img src="uploads/images/erp4.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="ERP Management">
                 <img src="uploads/images/erp5.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="ERP Interface">
+                <img src="uploads/images/erp6.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="ERP Settings">
+                <img src="uploads/images/erp7.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="ERP Inventory">
+                <img src="uploads/images/erp8.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="ERP Finance">
               </div>
             </div>
             <button id="prev-btn" class="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-red-600 text-white p-2 sm:p-3 rounded-full hover:bg-red-700 transition-colors z-20">

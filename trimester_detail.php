@@ -43,6 +43,62 @@
     }
   </script>
   
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('.gallery-image');
+      const prevBtn = document.getElementById('prev-btn');
+      const nextBtn = document.getElementById('next-btn');
+      let currentIndex = 1;
+      
+      function updateGallery() {
+        images.forEach((img, index) => {
+          img.classList.add('hidden');
+          img.classList.remove('scale-100', 'blur-0', 'opacity-100', 'z-10', 'mx-8', 'w-80', 'h-96');
+          img.classList.add('scale-75', 'blur-sm', 'opacity-60', 'w-64', 'h-80');
+        });
+        
+        // Show center image (focused)
+        if (images[currentIndex]) {
+          images[currentIndex].classList.remove('hidden', 'scale-75', 'blur-sm', 'opacity-60', 'w-64', 'h-80');
+          images[currentIndex].classList.add('scale-100', 'blur-0', 'opacity-100', 'z-10', 'mx-8', 'w-80', 'h-96');
+        }
+        
+        // Show left image
+        const leftIndex = currentIndex > 0 ? currentIndex - 1 : images.length - 1;
+        if (images[leftIndex]) {
+          images[leftIndex].classList.remove('hidden');
+        }
+        
+        // Show right image
+        const rightIndex = currentIndex < images.length - 1 ? currentIndex + 1 : 0;
+        if (images[rightIndex]) {
+          images[rightIndex].classList.remove('hidden');
+        }
+      }
+      
+      prevBtn.addEventListener('click', () => {
+        currentIndex = currentIndex > 0 ? currentIndex - 1 : images.length - 1;
+        updateGallery();
+      });
+      
+      nextBtn.addEventListener('click', () => {
+        currentIndex = currentIndex < images.length - 1 ? currentIndex + 1 : 0;
+        updateGallery();
+      });
+      
+      updateGallery();
+      
+      // Auto scroll every 3 seconds
+      setInterval(() => {
+        currentIndex = currentIndex < images.length - 1 ? currentIndex + 1 : 0;
+        updateGallery();
+      }, 3000);
+      
+      // Handle window resize
+      window.addEventListener('resize', updateGallery);
+    });
+  </script>
+
   <style>
     body {
       font-family: "Inter", sans-serif;
@@ -65,6 +121,19 @@
     .btn:hover {
       transform: translateY(-3px);
       box-shadow: 0 10px 20px rgba(225, 29, 72, 0.3);
+    }
+
+    .gallery-image {
+      filter: blur(2px);
+      transition: all 0.5s ease;
+    }
+    
+    .gallery-image.blur-0 {
+      filter: blur(0px);
+    }
+    
+    .gallery-image.blur-sm {
+      filter: blur(4px);
     }
   </style>
 </head>
@@ -173,10 +242,27 @@
         <div class="flex flex-col items-center">
           <div class="relative w-full h-80 sm:h-96 md:h-[34rem] mb-6 overflow-hidden">
             <div class="absolute inset-0 flex items-center justify-center">
-              <div class="flex items-center justify-center h-full">
-                <img src="uploads/images/f1.png" class="w-80 h-96 sm:w-96 sm:h-[30rem] md:w-[30rem] md:h-[32rem] object-contain rounded-lg mx-4 opacity-100 blur-0 scale-110 z-10" alt="First Trimester Care">
+              <div id="gallery-container" class="flex items-center justify-center h-full transition-transform duration-500 ease-in-out" style="transform: translateX(0px); width: max-content;">
+                <img src="image17.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 1">
+                <img src="uploads/images/image18.PNG" class="gallery-image w-80 h-96 sm:w-96 sm:h-[30rem] md:w-[30rem] md:h-[32rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-100 blur-0 scale-110 z-10 transition-all duration-500" alt="Once Pay Image 2">
+                <img src="uploads/images/image20.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 3">
+                <img src="uploads/images/image21.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 4">
+                <img src="uploads/images/image22.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 5">
+                <img src="uploads/images/image23.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 6">
+                <img src="uploads/images/image24.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 7">
+                <img src="uploads/images/image25.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 8">
               </div>
             </div>
+            <button id="prev-btn" class="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-red-600 text-white p-2 sm:p-3 rounded-full hover:bg-red-700 transition-colors z-20">
+              <svg class="w-4 h-4 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+              </svg>
+            </button>
+            <button id="next-btn" class="absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 bg-red-600 text-white p-2 sm:p-3 rounded-full hover:bg-red-700 transition-colors z-20">
+              <svg class="w-4 h-4 sm:w-6 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
