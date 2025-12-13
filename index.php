@@ -290,11 +290,11 @@
       </div>
       
       <div class="container mx-auto px-4 text-center relative z-10 hero-text">
-        <h1 class="text-6xl md:text-8xl font-bold mb-6">
+        <h1 class="text-5xl md:text-7xl font-bold mb-6">
           HAVE AN <span class="text-red-600">IDEA</span><br>
           THAT WILL CHANGE THE <span class="text-red-600">WORLD</span>...?
         </h1>
-        <p class="text-3xl text-gray-300 mb-8 max-w-2xl mx-auto">
+        <p class="text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
           WE HELP YOU ACCOMPLISH IT
         </p>
         <div class="flex justify-center">

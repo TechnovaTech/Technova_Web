@@ -242,14 +242,14 @@
           <div class="relative w-full h-80 sm:h-96 md:h-[34rem] mb-6 overflow-hidden">
             <div class="absolute inset-0 flex items-center justify-center">
               <div id="gallery-container" class="flex items-center justify-center h-full transition-transform duration-500 ease-in-out" style="transform: translateX(0px); width: max-content;">
-                <img src="image17.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 1">
-                <img src="uploads/images/image18.PNG" class="gallery-image w-80 h-96 sm:w-96 sm:h-[30rem] md:w-[30rem] md:h-[32rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-100 blur-0 scale-110 z-10 transition-all duration-500" alt="Once Pay Image 2">
-                <img src="uploads/images/image20.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 3">
-                <img src="uploads/images/image21.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 4">
-                <img src="uploads/images/image22.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 5">
-                <img src="uploads/images/image23.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 6">
-                <img src="uploads/images/image24.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 7">
-                <img src="uploads/images/image25.PNG" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Once Pay Image 8">
+                <img src="uploads/images/y1.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 1">
+                <img src="uploads/images/y2.png" class="gallery-image w-80 h-96 sm:w-96 sm:h-[30rem] md:w-[30rem] md:h-[32rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-100 blur-0 scale-110 z-10 transition-all duration-500" alt="Yaari App Screen 2">
+                <img src="uploads/images/y3.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 3">
+                <img src="uploads/images/y4.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 4">
+                <img src="uploads/images/y5.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 5">
+                <img src="uploads/images/y6.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 6">
+                <img src="uploads/images/y7.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 7">
+                <img src="uploads/images/y8.png" class="gallery-image w-72 h-80 sm:w-80 sm:h-96 md:w-96 md:h-[30rem] object-contain rounded-lg mx-2 sm:mx-3 md:mx-4 opacity-60 blur-sm transition-all duration-500" alt="Yaari App Screen 8">
               </div>
             </div>
             <button id="prev-btn" class="absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 bg-red-600 text-white p-2 sm:p-3 rounded-full hover:bg-red-700 transition-colors z-20">
