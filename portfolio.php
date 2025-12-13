@@ -143,10 +143,10 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 200ms;">
-          <img src="uploads/images/erp.png" alt="ERP System" class="w-full h-full object-cover aspect-[4/3]">
+          <img src="uploads/images/r1.PNG" alt="ERP System" class="w-full h-full object-cover aspect-[4/3]">
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
-              <h3 class="text-xl font-bold text-white mb-2">ERP System</h3>
+              <h3 class="text-xl font-bold text-white mb-2">Retailians ERP System</h3>
               <p class="text-white/80 mb-4">Enterprise Resource Planning Solution</p>
               <a href="erp_detail.php" class="btn">
                 View Project
@@ -156,7 +156,7 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 300ms;">
-          <img src="uploads/images/Dashboard12.png" alt="Commonwoods" class="w-full h-full object-cover aspect-[4/3]">
+          <img src="uploads/images/r2.PNG" alt="Commonwoods" class="w-full h-full object-cover aspect-[4/3]">
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">9-Eleven Wrap ERP</h3>
@@ -169,16 +169,48 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 400ms;">
-          <img src="https://media.istockphoto.com/id/485558398/photo/woman-buying-a-gold-bracelet.jpg?s=612x612&w=0&k=20&c=jPjGxdeGi_VxVKdxYGuaZVUlSZ4ZetAzhEWMA42ARoQ=" alt="HulchiBelluni" class="w-full h-full object-cover aspect-[4/3]">
+          <div class="bg-orange-200 p-8 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- Mobile Frame -->
+            <div class="bg-black rounded-3xl p-2 shadow-2xl">
+              <div class="bg-white rounded-2xl overflow-hidden w-48 h-80">
+                <!-- Mobile Screen -->
+                <div class="h-full bg-cover bg-center" style="background-image: url('uploads/images/y0.png');">
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
-              <h3 class="text-xl font-bold text-white mb-2">Bulgari Jweles</h3>
-              <p class="text-white/80 mb-4">Luxury jewelry brand website</p>
-              <a href="jwelery.php" class="btn">
+              <h3 class="text-xl font-bold text-white mb-2">Yaari Dating App</h3>
+              <p class="text-white/80 mb-4">Connect hearts, create memories - Your love story starts here</p>
+              <a href="yaari_detail.php" class="btn">
                 View Project
               </a>
             </div>
           </div>
+        </div>
+        
+        <div class="portfolio-item reveal" style="transition-delay: 500ms;">
+          <div class="bg-blue-200 p-8 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- Mobile Frame -->
+            <div class="bg-black rounded-3xl p-2 shadow-2xl">
+              <div class="bg-white rounded-2xl overflow-hidden w-48 h-80">
+                <!-- Mobile Screen -->
+                <div class="h-full bg-cover bg-center" style="background-image: url('uploads/images/n1.png');">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-content text-center p-4">
+              <h3 class="text-xl font-bold text-white mb-2">Asiaze News App</h3>
+              <p class="text-white/80 mb-4">Stay informed with latest news and updates</p>
+              <a href="asiaze_detail.php" class="btn">
+                View Project
+              </a>
+            </div>
+          </div>
+        </div>
         </div>
       </div>
   </section>
