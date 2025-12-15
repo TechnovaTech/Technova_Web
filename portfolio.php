@@ -134,25 +134,25 @@
             <!-- MacBook Style Laptop -->
             <div class="relative">
               <!-- Laptop Screen -->
-              <div class="bg-black rounded-t-lg" style="width: 300px; height: 190px; padding: 8px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+              <div class="bg-black rounded-t-lg" style="width: 400px; height: 250px; padding: 10px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
                 <!-- Screen Bezel -->
-                <div class="bg-gray-800 rounded-lg p-2" style="width: 284px; height: 174px;">
+                <div class="bg-gray-800 rounded-lg p-1" style="width: 380px; height: 230px;">
                   <!-- Webcam -->
                   <div class="flex justify-center mb-1">
-                    <div class="w-1.5 h-1.5 bg-gray-600 rounded-full"></div>
+                    <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
                   </div>
                   <!-- Actual Screen -->
-                  <div class="bg-white rounded overflow-hidden" style="width: 268px; height: 160px;">
+                  <div class="bg-white rounded overflow-hidden" style="width: 370px; height: 220px;">
                     <img src="image17.png" alt="Once Pay" class="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
               
               <!-- Laptop Base (Black Style) -->
-              <div class="bg-black rounded-b-lg" style="width: 300px; height: 16px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
+              <div class="bg-black rounded-b-lg" style="width: 400px; height: 20px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
                 <!-- Trackpad Area -->
                 <div class="flex justify-center pt-1">
-                  <div class="bg-gray-600 rounded-sm opacity-70" style="width: 50px; height: 4px;"></div>
+                  <div class="bg-gray-600 rounded-sm opacity-70" style="width: 70px; height: 6px;"></div>
                 </div>
               </div>
               
@@ -172,7 +172,36 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 200ms;">
-          <img src="uploads/images/r1.PNG" alt="ERP System" class="w-full h-full object-fill aspect-[4/3]">
+          <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- MacBook Style Laptop -->
+            <div class="relative">
+              <!-- Laptop Screen -->
+              <div class="bg-black rounded-t-lg" style="width: 400px; height: 250px; padding: 10px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+                <!-- Screen Bezel -->
+                <div class="bg-gray-800 rounded-lg p-1" style="width: 380px; height: 230px;">
+                  <!-- Webcam -->
+                  <div class="flex justify-center mb-1">
+                    <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                  </div>
+                  <!-- Actual Screen -->
+                  <div class="bg-white rounded overflow-hidden" style="width: 370px; height: 220px;">
+                    <img src="uploads/images/r1.PNG" alt="ERP System" class="w-full h-full object-cover" />
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Laptop Base (Black Style) -->
+              <div class="bg-black rounded-b-lg" style="width: 400px; height: 20px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
+                <!-- Trackpad Area -->
+                <div class="flex justify-center pt-1">
+                  <div class="bg-gray-600 rounded-sm opacity-70" style="width: 70px; height: 6px;"></div>
+                </div>
+              </div>
+              
+              <!-- Drop Shadow -->
+              <div class="absolute -bottom-6 left-2 right-2 h-6 bg-black opacity-15 rounded-full" style="filter: blur(8px);"></div>
+            </div>
+          </div>
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">Retailians ERP System</h3>
@@ -185,7 +214,36 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 300ms;">
-          <img src="uploads/images/r2.PNG" alt="Commonwoods" class="w-full h-full object-fill aspect-[4/3]">
+          <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- MacBook Style Laptop -->
+            <div class="relative">
+              <!-- Laptop Screen -->
+              <div class="bg-black rounded-t-lg" style="width: 400px; height: 250px; padding: 10px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+                <!-- Screen Bezel -->
+                <div class="bg-gray-800 rounded-lg p-1" style="width: 380px; height: 230px;">
+                  <!-- Webcam -->
+                  <div class="flex justify-center mb-1">
+                    <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                  </div>
+                  <!-- Actual Screen -->
+                  <div class="bg-white rounded overflow-hidden" style="width: 370px; height: 220px;">
+                    <img src="uploads/images/r2.PNG" alt="Commonwoods" class="w-full h-full object-cover" />
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Laptop Base (Black Style) -->
+              <div class="bg-black rounded-b-lg" style="width: 400px; height: 20px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
+                <!-- Trackpad Area -->
+                <div class="flex justify-center pt-1">
+                  <div class="bg-gray-600 rounded-sm opacity-70" style="width: 70px; height: 6px;"></div>
+                </div>
+              </div>
+              
+              <!-- Drop Shadow -->
+              <div class="absolute -bottom-6 left-2 right-2 h-6 bg-black opacity-15 rounded-full" style="filter: blur(8px);"></div>
+            </div>
+          </div>
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">9-Eleven Wrap ERP</h3>
@@ -242,7 +300,36 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 600ms;">
-          <img src="uploads/images/w6.PNG" alt="WalkIn FirstPregnancy" class="w-full h-full object-fill aspect-[4/3]">
+          <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- MacBook Style Laptop -->
+            <div class="relative">
+              <!-- Laptop Screen -->
+              <div class="bg-black rounded-t-lg" style="width: 400px; height: 250px; padding: 10px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+                <!-- Screen Bezel -->
+                <div class="bg-gray-800 rounded-lg p-1" style="width: 380px; height: 230px;">
+                  <!-- Webcam -->
+                  <div class="flex justify-center mb-1">
+                    <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                  </div>
+                  <!-- Actual Screen -->
+                  <div class="bg-white rounded overflow-hidden" style="width: 370px; height: 220px;">
+                    <img src="uploads/images/w6.PNG" alt="WalkIn FirstPregnancy" class="w-full h-full object-cover" />
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Laptop Base (Black Style) -->
+              <div class="bg-black rounded-b-lg" style="width: 400px; height: 20px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
+                <!-- Trackpad Area -->
+                <div class="flex justify-center pt-1">
+                  <div class="bg-gray-600 rounded-sm opacity-70" style="width: 70px; height: 6px;"></div>
+                </div>
+              </div>
+              
+              <!-- Drop Shadow -->
+              <div class="absolute -bottom-6 left-2 right-2 h-6 bg-black opacity-15 rounded-full" style="filter: blur(8px);"></div>
+            </div>
+          </div>
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">WalkIn FirstPregnancy</h3>
@@ -255,7 +342,36 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 700ms;">
-          <img src="uploads/images/f1.png" alt="First Trimester Care" class="w-full h-full object-fill aspect-[4/3]">
+          <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- MacBook Style Laptop -->
+            <div class="relative">
+              <!-- Laptop Screen -->
+              <div class="bg-black rounded-t-lg" style="width: 400px; height: 250px; padding: 10px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);">
+                <!-- Screen Bezel -->
+                <div class="bg-gray-800 rounded-lg p-1" style="width: 380px; height: 230px;">
+                  <!-- Webcam -->
+                  <div class="flex justify-center mb-1">
+                    <div class="w-2 h-2 bg-gray-600 rounded-full"></div>
+                  </div>
+                  <!-- Actual Screen -->
+                  <div class="bg-white rounded overflow-hidden" style="width: 370px; height: 220px;">
+                    <img src="uploads/images/f1.png" alt="First Trimester Care" class="w-full h-full object-cover" />
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Laptop Base (Black Style) -->
+              <div class="bg-black rounded-b-lg" style="width: 400px; height: 20px; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);">
+                <!-- Trackpad Area -->
+                <div class="flex justify-center pt-1">
+                  <div class="bg-gray-600 rounded-sm opacity-70" style="width: 70px; height: 6px;"></div>
+                </div>
+              </div>
+              
+              <!-- Drop Shadow -->
+              <div class="absolute -bottom-6 left-2 right-2 h-6 bg-black opacity-15 rounded-full" style="filter: blur(8px);"></div>
+            </div>
+          </div>
           <div class="portfolio-overlay">
             <div class="portfolio-content text-center p-4">
               <h3 class="text-xl font-bold text-white mb-2">Your First Trimester Prenatal Care</h3>
