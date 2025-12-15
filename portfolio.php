@@ -256,12 +256,18 @@
         </div>
 
         <div class="portfolio-item reveal" style="transition-delay: 400ms;">
-          <div class="bg-orange-200 p-8 rounded-lg flex justify-center items-center aspect-[4/3]">
-            <!-- Mobile Frame -->
-            <div class="bg-black rounded-3xl p-2 shadow-2xl">
-              <div class="bg-white rounded-2xl overflow-hidden w-48 h-80">
-                <!-- Mobile Screen -->
-                <div class="h-full bg-cover bg-center" style="background-image: url('uploads/images/y0.png');">
+          <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- Realistic iPhone Frame -->
+            <div class="relative">
+              <div class="bg-gray-900 rounded-[2rem] p-1" style="width: 160px; height: 320px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                <div class="bg-white rounded-[1.7rem] overflow-hidden relative" style="width: 148px; height: 308px;">
+                  <!-- Dynamic Island -->
+                  <div class="absolute top-2 left-1/2 transform -translate-x-1/2 bg-black rounded-full" style="width: 50px; height: 16px; z-index: 10;"></div>
+                  <!-- Screen Content -->
+                  <div class="h-full bg-cover bg-center" style="background-image: url('uploads/images/y0.png');">
+                  </div>
+                  <!-- Home Indicator -->
+                  <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black rounded-full" style="width: 35px; height: 3px;"></div>
                 </div>
               </div>
             </div>
@@ -278,12 +284,18 @@
         </div>
         
         <div class="portfolio-item reveal" style="transition-delay: 500ms;">
-          <div class="bg-blue-200 p-8 rounded-lg flex justify-center items-center aspect-[4/3]">
-            <!-- Mobile Frame -->
-            <div class="bg-black rounded-3xl p-2 shadow-2xl">
-              <div class="bg-white rounded-2xl overflow-hidden w-48 h-80">
-                <!-- Mobile Screen -->
-                <div class="h-full bg-cover bg-center" style="background-image: url('uploads/images/n1.png');">
+          <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-lg flex justify-center items-center aspect-[4/3]">
+            <!-- Realistic iPhone Frame -->
+            <div class="relative">
+              <div class="bg-gray-900 rounded-[2rem] p-1" style="width: 160px; height: 320px; box-shadow: 0 20px 40px rgba(0,0,0,0.3);">
+                <div class="bg-white rounded-[1.7rem] overflow-hidden relative" style="width: 148px; height: 308px;">
+                  <!-- Dynamic Island -->
+                  <div class="absolute top-2 left-1/2 transform -translate-x-1/2 bg-black rounded-full" style="width: 50px; height: 16px; z-index: 10;"></div>
+                  <!-- Screen Content -->
+                  <div class="h-full bg-cover bg-center" style="background-image: url('uploads/images/n1.png');">
+                  </div>
+                  <!-- Home Indicator -->
+                  <div class="absolute bottom-2 left-1/2 transform -translate-x-1/2 bg-black rounded-full" style="width: 35px; height: 3px;"></div>
                 </div>
               </div>
             </div>
