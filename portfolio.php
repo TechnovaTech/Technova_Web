@@ -370,7 +370,7 @@
                   </div>
                   <!-- Actual Screen -->
                   <div class="bg-white rounded overflow-hidden" style="width: 370px; height: 220px;">
-                    <img src="uploads/images/f1.png" alt="First Trimester Care" class="w-full h-full object-cover" />
+                    <img src="uploads/images/f1.PNG" alt="First Trimester Care" class="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
