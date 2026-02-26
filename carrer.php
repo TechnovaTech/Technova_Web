@@ -1,57 +1,12 @@
 <?php
-include_once("includes/connect_db.php");
+// Temporarily disable database connection for testing
+// include_once("includes/connect_db.php");
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $full_name = $conn->real_escape_string($_POST['full_name']);
-  $email = $conn->real_escape_string($_POST['email']);
-  $phone = $conn->real_escape_string($_POST['phone']);
-  $position = $conn->real_escape_string($_POST['position']);
-  $texp = $conn->real_escape_string($_POST['texp']);
-  $rexp = $conn->real_escape_string($_POST['rexp']);
-  $cctc = $conn->real_escape_string($_POST['cctc']);
-  $ectc = $conn->real_escape_string($_POST['ectc']);
-  $massage = $conn->real_escape_string($_POST['massage']);
-
-  // Handle File Upload
-  $resume_dir = "uploads/resume/";
-  if (!is_dir($resume_dir)) {
-    mkdir($resume_dir, 0777, true);
-  }
-
-  $resume_file = $resume_dir . basename($_FILES["resume"]["name"]);
-  $resume_ext = strtolower(pathinfo($resume_file, PATHINFO_EXTENSION));
-
-  // Allow only PDF files
-  if ($resume_ext != "pdf") {
-    die("Only PDF files are allowed.");
-  }
-
-  if (move_uploaded_file($_FILES["resume"]["tmp_name"], $resume_file)) {
-    // Check if the user already applied (Update Instead of Insert)
-    $check_query = "SELECT id FROM applicants WHERE email = '$email' AND position_applied = '$position'";
-    $result = $conn->query($check_query);
-
-    if ($result->num_rows > 0) {
-      // If exists, update the record
-      echo "<script>alert('you are already sent application '); window.location.href='carrer.php';</script>";
-    } else {
-      // If new, insert the record
-      $sql = "INSERT INTO applicants (full_name, email, position_applied, total_experience,relevant_experience,current_ctc,expected_ctc,message,resume_path) VALUES 
-                                          ('$full_name', '$email', '$position','$texp','$rexp','$cctc','$ectc','$massage', '$resume_file')";
-    }
-
-    if ($conn->query($sql) === TRUE) {
-      echo "<script>alert('Application Submitted Successfully!'); window.location.href='carrer.php';</script>";
-    } else {
-      echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-  } else {
-    echo "Error uploading file.";
-  }
+  echo "<script>alert('Database is not connected. Please start MySQL/MariaDB server.'); window.location.href='carrer.php';</script>";
+  exit;
 }
-
-$conn->close();
 ?>
 
 
@@ -128,20 +83,6 @@ $conn->close();
       <a href="index.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Home</a>
       <a href="service.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Services</a>
       <a href="hireteam.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Hire Team</a>
-      <div class="relative group">
-        <button class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300 flex items-center gap-1">
-          Work
-          <svg class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-          </svg>
-        </button>
-        <div class="absolute top-full left-0 mt-2 w-48 bg-black bg-opacity-90 backdrop-blur-md rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-          <div class="py-2">
-            <a href="portfolio.php" class="block px-4 py-2 text-white hover:text-red-600 hover:bg-gray-800 transition-colors duration-300">Portfolio</a>
-            <a href="product.php" class="block px-4 py-2 text-white hover:text-red-600 hover:bg-gray-800 transition-colors duration-300">Product</a>
-          </div>
-        </div>
-      </div>
       <a href="about.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">About</a>
       <a href="carrer.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Careers</a>
     </nav>
@@ -166,8 +107,6 @@ $conn->close();
     <a href="index.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Home</a>
     <a href="service.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Services</a>
     <a href="hireteam.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Hire Team</a>
-    <a href="portfolio.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Portfolio</a>
-    <a href="product.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Product</a>
     <a href="about.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">About</a>
     <a href="carrer.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Careers</a>
     <a href="contact.php" class="btn text-sm sm:text-base py-2 px-4 sm:py-3 sm:px-6">Contact Us</a>
@@ -338,14 +277,8 @@ $conn->close();
                 </ul>
             </div>
             
-            <!-- Work & Resources -->
+            <!-- Resources -->
             <div>
-                <h3 class="text-white font-semibold mb-4">Work</h3>
-                <ul class="space-y-2 text-sm mb-6">
-                    <li><a href="portfolio.php" class="text-gray-300 hover:text-primary transition-colors duration-300">Portfolio</a></li>
-                    <li><a href="product.php" class="text-gray-300 hover:text-primary transition-colors duration-300">Products</a></li>
-                </ul>
-                
                 <h3 class="text-white font-semibold mb-4">Resources</h3>
                 <ul class="space-y-2 text-sm">
                     <li><a href="#" class="text-gray-300 hover:text-primary transition-colors duration-300">Blog</a></li>

@@ -70,20 +70,6 @@
       <a href="index.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Home</a>
       <a href="service.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Services</a>
       <a href="hireteam.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Hire Team</a>
-      <div class="relative group">
-        <button class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300 flex items-center gap-1">
-          Work
-          <svg class="w-4 h-4 transition-transform duration-300 group-hover:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-          </svg>
-        </button>
-        <div class="absolute top-full left-0 mt-2 w-48 bg-black bg-opacity-90 backdrop-blur-md rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-          <div class="py-2">
-            <a href="portfolio.php" class="block px-4 py-2 text-white hover:text-red-600 hover:bg-gray-800 transition-colors duration-300">Portfolio</a>
-            <a href="product.php" class="block px-4 py-2 text-white hover:text-red-600 hover:bg-gray-800 transition-colors duration-300">Product</a>
-          </div>
-        </div>
-      </div>
       <a href="about.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">About</a>
       <a href="carrer.php" class="text-base font-medium text-white hover:text-red-600 transition-colors duration-300">Careers</a>
     </nav>
@@ -108,8 +94,6 @@
     <a href="index.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Home</a>
     <a href="service.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Services</a>
     <a href="hireteam.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Hire Team</a>
-    <a href="portfolio.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Portfolio</a>
-    <a href="product.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Product</a>
     <a href="about.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">About</a>
     <a href="carrer.php" class="text-base font-medium text-white hover:text-primary transition-colors duration-300 nav-link">Careers</a>
     <a href="contact.php" class="btn text-sm sm:text-base py-2 px-4 sm:py-3 sm:px-6">Contact Us</a>
@@ -249,15 +233,7 @@
         </div>
       </div>
 
-      <!-- See Projects Button -->
-      <div class="text-left">
-        <a href="portfolio.php" class="group inline-flex items-center gap-3 bg-gradient-to-r from-primary to-pink-600 hover:from-pink-600 hover:to-primary text-white px-8 py-4 rounded-lg font-bold text-sm tracking-wider transition-all duration-300 hover:transform hover:scale-105 hover:shadow-lg hover:shadow-primary/30">
-          SEE PROJECTS
-          <svg class="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-          </svg>
-        </a>
-      </div>
+
     </div>
   </section>
 
@@ -764,14 +740,8 @@
                 </ul>
             </div>
             
-            <!-- Work & Resources -->
+            <!-- Resources -->
             <div>
-                <h3 class="text-white font-semibold mb-4">Work</h3>
-                <ul class="space-y-2 text-sm mb-6">
-                    <li><a href="portfolio.php" class="text-gray-300 hover:text-primary transition-colors duration-300">Portfolio</a></li>
-                    <li><a href="product.php" class="text-gray-300 hover:text-primary transition-colors duration-300">Products</a></li>
-                </ul>
-                
                 <h3 class="text-white font-semibold mb-4">Resources</h3>
                 <ul class="space-y-2 text-sm">
                     <li><a href="#" class="text-gray-300 hover:text-primary transition-colors duration-300">Blog</a></li>
